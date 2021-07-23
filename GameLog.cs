@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 
 /// <summary>
-/// 将会自动禁用Player日志
+/// 请禁用Player日志
 /// </summary>
 public class GameLog : MonoBehaviour
 {
@@ -22,13 +22,14 @@ public class GameLog : MonoBehaviour
     public string LogSufferName = "Game";
 
     private string FilePath = "";
+    private string fileDir ="";
 
     // Start is called before the first frame update
     void Start()
     {
         initLog();
         Application.logMessageReceived += HandleLog;
-        PlayerSettings.usePlayerLog = false;
+        
         Debug.Log("---------Power By Sele---------");
         Debug.Log("---------按天日志记录----------");
         for (int i = 0; i < 100; i++)
@@ -46,6 +47,10 @@ public class GameLog : MonoBehaviour
     private readonly string[] logFormats = new string[] { "{0}-{1}-{2}:\n{3}\n", "{0}-{1}-{2}\n" };
     private void HandleLog(string condition, string stackTrace, LogType type)
     {
+        if (FilePath.Equals("")|| !File.Exists(FilePath))
+        {
+            initLog();
+        }
         if (NeedStackTrace)
         {
             File.AppendAllText(FilePath, string.Format(logFormats[0], DateTime.Now.ToString(), type.ToString(), condition, stackTrace));
@@ -67,13 +72,13 @@ public class GameLog : MonoBehaviour
                 FilePath = string.Format(pathformat, Application.streamingAssetsPath, times, logfilesuffer).Replace("/", "\\");
                 break;
             case LogFilePosition.System:
-                FilePath = string.Format(pathformat, string.Format(@"{0}\AppData\LocalLow\{1}\{2}", Environment.GetEnvironmentVariable("USERPROFILE"), PlayerSettings.companyName, PlayerSettings.productName), times, logfilesuffer).Replace("/", "\\");
+                FilePath = string.Format(pathformat, string.Format(@"{0}\AppData\LocalLow\{1}\{2}", Environment.GetEnvironmentVariable("USERPROFILE"), Application.companyName, Application.productName), times, logfilesuffer).Replace("/", "\\");
                 break;
             default:
                 break;
         }
         Debug.Log("LogFilePath:" + FilePath);
-        string fileDir = FilePath.Substring(0, FilePath.LastIndexOf('\\'));
+        fileDir = FilePath.Substring(0, FilePath.LastIndexOf('\\'));
         
         if (!Directory.Exists(fileDir))
         {
