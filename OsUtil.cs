@@ -7,22 +7,22 @@ using UnityEngine;
 public class OsUtil : MonoBehaviour
 {
     public static string CurrentThreadInfo() {
-        return "µ±Ç°Ó¦ÓÃ£º" + Process.GetCurrentProcess().ProcessName + " ½ø³ÌID: " + Process.GetCurrentProcess().Id;
+        return "å½“å‰åº”ç”¨ï¼š" + Process.GetCurrentProcess().ProcessName + " è¿›ç¨‹ID: " + Process.GetCurrentProcess().Id;
     }
     /// <summary>
-    /// ¿ªÆôÓ¦ÓÃ
+    /// å¼€å¯åº”ç”¨
     /// </summary>
-    /// <param name="ApplicationPath">Ó¦ÓÃ¾ø¶ÔÂ·¾¶</param>
+    /// <param name="ApplicationPath">åº”ç”¨ç»å¯¹è·¯å¾„</param>
     public static void StartProcess(string ApplicationPath)
     {
-        UnityEngine.Debug.Log("´ò¿ª±¾µØÓ¦ÓÃ");
+        UnityEngine.Debug.Log("æ‰“å¼€æœ¬åœ°åº”ç”¨");
         Process foo = new Process();
         foo.StartInfo.FileName = ApplicationPath;
         foo.Start();
     }
 
     /// <summary>
-    /// ¼ì²éÓ¦ÓÃÊÇ·ñÕıÔÚÔËĞĞ
+    /// æ£€æŸ¥åº”ç”¨æ˜¯å¦æ­£åœ¨è¿è¡Œ
     /// </summary>
     public static bool CheckProcess(string processName)
     {
@@ -38,13 +38,13 @@ public class OsUtil : MonoBehaviour
                 {
                     if (process.ProcessName.Contains(processName))
                     {
-                        UnityEngine.Debug.Log(processName + "ÕıÔÚÔËĞĞ");
+                        UnityEngine.Debug.Log(processName + "æ­£åœ¨è¿è¡Œ");
                         isRunning = true;
                         continue;
                     }
                     else if (!process.ProcessName.Contains(processName) && i > processes.Length)
                     {
-                        UnityEngine.Debug.Log(processName + "Ã»ÓĞÔËĞĞ");
+                        UnityEngine.Debug.Log(processName + "æ²¡æœ‰è¿è¡Œ");
                         isRunning = false;
                     }
                 }
@@ -56,7 +56,7 @@ public class OsUtil : MonoBehaviour
         return isRunning;
     }
     /// <summary>
-    /// ÁĞ³öÒÑ¿ªÆôµÄÓ¦ÓÃ
+    /// åˆ—å‡ºå·²å¼€å¯çš„åº”ç”¨
     /// </summary>
     public static List<string> ListAllAppliction()
     {
@@ -68,7 +68,7 @@ public class OsUtil : MonoBehaviour
             {
                 if (!process.HasExited)
                 {
-                    list.Add("Ó¦ÓÃID:" + process.Id + "Ó¦ÓÃÃû:" + process.ProcessName);
+                    list.Add("åº”ç”¨ID:" + process.Id + "åº”ç”¨å:" + process.ProcessName);
                 }
             }
             catch (Exception )
@@ -78,9 +78,9 @@ public class OsUtil : MonoBehaviour
         return list;
     }
     /// <summary>
-    /// É±ËÀ½ø³Ì
+    /// æ€æ­»è¿›ç¨‹
     /// </summary>
-    /// <param name="processName">Ó¦ÓÃ³ÌĞòÃû</param>
+    /// <param name="processName">åº”ç”¨ç¨‹åºå</param>
     public static bool KillProcess(string processName)
     {
         Process[] processes = Process.GetProcesses();
@@ -93,7 +93,7 @@ public class OsUtil : MonoBehaviour
                     if (process.ProcessName == processName)
                     {
                         process.Kill();
-                        UnityEngine.Debug.Log("ÒÑÉ±ËÀ½ø³Ì");
+                        UnityEngine.Debug.Log("å·²æ€æ­»è¿›ç¨‹");
                     }
                 }
             }
@@ -105,5 +105,36 @@ public class OsUtil : MonoBehaviour
         }
         return true;
     }
+    
+    public ComputorInfo getComputorInfo(){
+        ComputorInfo info=new ComputorInfo(){
+            CPU=SystemInfo.processorType,
+            GPU=SystemInfo.graphicsDeviceName,
+            DRAM=SystemInfo.systemMemorySize / 1024f + "G   " + SystemInfo.systemMemorySize + "M",
+            HardDisk=GetHardDiskSpace() + "T"
+        };
+    }
+    private float GetHardDiskSpace()
+    {
+        long totalSize = new long();
+        float HardDiskSize = 0;
+        System.IO.DriveInfo[] drives = System.IO.DriveInfo.GetDrives();
+        foreach (System.IO.DriveInfo drive in drives)
+        {
+ 
+            totalSize = drive.TotalSize / (1024 * 1024 * 1024);
+            HardDiskSize += (float)totalSize;
+        }
+ 
+        HardDiskSize /= 1000f;
+        return HardDiskSize;
+    }
+
+public class ComputorInfo{
+    public string CPU{get;set;}
+    public string GPU{get;set;}
+    public string DRAM{get;set;}
+    public string HardDisk{get;set}
+}
 
 }
