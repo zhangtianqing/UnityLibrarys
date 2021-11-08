@@ -18,25 +18,22 @@ public class GameLog : MonoBehaviour
     }
     [Header("日志位置：Project(跟随项目)/System(存放系统默认位置)")]
     public LogFilePosition position;
-
+    /// <summary>
+    /// 日志打印索引
+    /// </summary>
+    public long logIndex = 0;
+    /// <summary>
+    /// 日志分类名
+    /// </summary>
     public string LogSufferName = "Game";
 
     private string FilePath = "";
     private string fileDir ="";
 
-    // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         initLog();
         Application.logMessageReceived += HandleLog;
-        
-        Debug.Log("---------Power By Sele---------");
-        Debug.Log("---------按天日志记录----------");
-        for (int i = 0; i < 100; i++)
-        {
-            Debug.Log("A" + i);
-
-        }
     }
 
     private void OnDestroy()
@@ -44,7 +41,10 @@ public class GameLog : MonoBehaviour
         Application.logMessageReceived -= HandleLog;
     }
 
-    private readonly string[] logFormats = new string[] { "{0}-{1}-{2}:\n{3}\n", "{0}-{1}-{2}\n" };
+    private readonly string[] logFormats = new string[] { 
+        "{0}-本次运行第{1}次打印日志-{2}-{3}\n{4}\n", 
+        "{0}-本次运行第{1}次打印日志-{2}-{3}\n" 
+    };
     private void HandleLog(string condition, string stackTrace, LogType type)
     {
         if (FilePath.Equals("")|| !File.Exists(FilePath))
@@ -53,19 +53,21 @@ public class GameLog : MonoBehaviour
         }
         if (NeedStackTrace)
         {
-            File.AppendAllText(FilePath, string.Format(logFormats[0], DateTime.Now.ToString(), type.ToString(), condition, stackTrace));
+            File.AppendAllText(FilePath, string.Format(logFormats[0], DateTime.Now.ToString(), logIndex++, type.ToString(), condition, stackTrace));
         }
         else
         {
-            File.AppendAllText(FilePath, string.Format(logFormats[1], DateTime.Now.ToString(), type.ToString(), condition));
+            File.AppendAllText(FilePath, string.Format(logFormats[1], DateTime.Now.ToString(), logIndex++, type.ToString(), condition));
         }
 
     }
     void initLog()
     {
-        string pathformat = "{0}\\{1}_{2}.log";
+        string pathformat = "{0}\\Log\\{1}_{2}.log";
         string logfilesuffer = LogSufferName;
-        string times = DateTime.Now.ToLongDateString().Replace(":", "-").Replace(" ", "_").Replace("/", "-");
+        string times = DateTime.Now.ToLongDateString().Replace(":", "-").Replace(" ", "_").Replace("/", "-") +"-"+ DateTime.Now.ToLongTimeString().Replace(":", "").Replace(" ", "_").Replace("/", "-");
+
+        NeedStackTrace = INIHelper.GetBool("Log_NeedStackTrace");
         switch (position)
         {
             case LogFilePosition.Project:
@@ -77,7 +79,6 @@ public class GameLog : MonoBehaviour
             default:
                 break;
         }
-        Debug.Log("LogFilePath:" + FilePath);
         fileDir = FilePath.Substring(0, FilePath.LastIndexOf('\\'));
         
         if (!Directory.Exists(fileDir))
