@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace Assets.Script.Tools.EncryptionAndDecryption
 {
+    ///
+    ///AES 加密解密
+    ///
     class AESHelper
     {/// <summary>
      ///  AES 加密

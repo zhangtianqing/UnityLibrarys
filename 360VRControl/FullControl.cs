@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+///
+///360VRControl 360全景控制
+///
 public class FullControl : MonoBehaviour
 {
     public float moveSpeed = 1;//物体旋转速度  

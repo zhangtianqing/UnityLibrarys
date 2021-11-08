@@ -7,9 +7,9 @@ using MySql.Data.MySqlClient;
 public class CMySql : MonoBehaviour
 {
     public static MySqlConnection dbConnection;//Just like MyConn.conn in StoryTools before  
-    public static string host = "whatbug.cn";
+    public static string host = "a1092484359";
     static string id = "root";  //***不要变***
-    static string pwd = "FuckUnityEED";  //密码
+    static string pwd = "UnityWorkEveryDay";  //密码
     static string database = "unity_good_job";//数据库名  
     static string result = "";
 

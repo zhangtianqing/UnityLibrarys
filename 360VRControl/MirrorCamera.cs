@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+///
+///矩阵镜像
+///
 public class MirrorCamera : MonoBehaviour
 {
     // Start is called before the first frame update
