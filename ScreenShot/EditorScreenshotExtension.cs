@@ -1,11 +1,13 @@
 using System.IO;
 using System.Threading.Tasks;
+using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEditorInternal;
-using UnityEngine;
-
+#endif
 public static class EditorScreenshotExtension
 {
+#if UNITY_EDITOR
     //ctrl + shift + y НиЭМ
     [MenuItem("Screenshot/Take Screenshot %#y")]
     private static async void Screenshot()
@@ -26,4 +28,5 @@ public static class EditorScreenshotExtension
         System.Diagnostics.Process.Start("explorer.exe", folderPath);
         Debug.Log("НиЭМ" + stampString + ".png");
     }
+#endif
 }
