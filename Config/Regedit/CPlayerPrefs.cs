@@ -8,7 +8,54 @@ using UnityEngine;
 /// </summary>
 public class CPlayerPrefs : PlayerPrefs
 {
+    #region 默认键值记录与打印
+    /// <summary>
+    /// Unity 注册表默认信息配置
+    /// </summary>
+    public static CommonKey[] regeditCommonKeys = new CommonKey[] {
+        new CommonKey(){ key="Screenmanager Fullscreen mode Default",type=typeof(int).Name,desc="默认全屏模式" },
+        new CommonKey(){ key="Screenmanager Fullscreen mode",type=typeof(int).Name,desc="全屏模式"  },
 
+        new CommonKey(){ key="Screenmanager Resolution Use Native Default",type=typeof(int).Name ,desc="默认使用Native方法" },
+        new CommonKey(){ key="Screenmanager Resolution Use Native",type=typeof(int).Name,desc="使用Native方法"  },
+
+        new CommonKey(){ key="Screenmanager Resolution Height Default",type=typeof(int).Name ,desc="默认高度" },
+        new CommonKey(){ key="Screenmanager Resolution Height",type=typeof(int).Name,desc="高度"  },
+        new CommonKey(){ key="Screenmanager Resolution Width Default",type=typeof(int).Name,desc="默认宽度"  },
+        new CommonKey(){ key="Screenmanager Resolution Width",type=typeof(int).Name,desc="宽度"  },
+
+        new CommonKey(){ key="Screenmanager Stereo 3D",type=typeof(int).Name},
+
+        //new CommonKey(){ key="",type=typeof(float).Name  },
+
+        new CommonKey(){ key="unity.player_session_count",type=typeof(string).Name,desc="启动次数"  },
+        new CommonKey(){ key="unity.player_sessionid",type=typeof(string).Name ,desc="会话id" }
+    };
+
+    /// <summary>
+    /// 打印默认的注册表信息
+    /// </summary>
+    public static void PrintDefaultValue() {
+        Debug.Log("开始读取注册表信息");
+        foreach (var item in regeditCommonKeys)
+        {
+            if (item.type == typeof(int).Name)
+            {
+                Debug.Log($"{item.desc}:{GetInt(item.key)}");
+            }
+            else if (item.type == typeof(string).Name)
+            {
+                Debug.Log($"{item.desc}:{GetString(item.key)}");
+            }
+            else
+            if (item.type == typeof(float).Name)
+            {
+                Debug.Log($"{item.desc}:{GetFloat(item.key)}");
+            }
+        }
+        Debug.Log("结束读取注册表信息");
+    }
+    #endregion
 
     /// <summary>
     /// 删除键
@@ -27,31 +74,6 @@ public class CPlayerPrefs : PlayerPrefs
         {
             throw new Exception("键值输入是否正确");
         }
-    }
-
-    /// <summary>
-    /// 删除所有数据
-    /// </summary>
-    public static new void DeleteAll()
-    {
-        try
-        {
-            PlayerPrefs.DeleteAll();
-        }
-        catch (Exception e)
-        {
-            throw new Exception(e.Message);
-        }
-    }
-
-    /// <summary>
-    /// 是否存在键值
-    /// </summary>
-    /// <param name="key">键值</param>
-    /// <returns>bool</returns>
-    private static new bool HasKey(string key)
-    {
-        return PlayerPrefs.HasKey(key);
     }
 
     #region JsonData
@@ -118,4 +140,38 @@ public class CPlayerPrefs : PlayerPrefs
     }
 
     #endregion
+}
+
+/// <summary>
+/// 注册表信息记录类
+/// </summary>
+public class CommonKey
+{
+    public string key;
+    /// <summary>
+    /// typeof(int).Name ==> REG_DWORD
+    /// typeof(float).Name ==> 不正确的REG_DWORD32
+    /// typeof(string).Name ==> REG_BINARY
+    /// </summary>
+    public string type;
+    public string desc
+    {
+        get
+        {
+            if (descV == "")
+            {
+                return key;
+            }
+            else
+            {
+                return descV;
+            }
+        }
+        set
+        {
+            this.descV = value;
+        }
+    }
+    private string descV = "";
+
 }
