@@ -4,7 +4,7 @@ using System.Collections;
 ///
 /// 通过键盘来控制当前物体的移动
 ///
-public class OffsetNodeMover : MonoBehaviour
+public class TransformMoveByAxis : MonoBehaviour
 {
     [Tooltip("Speed at which the offset node will move through the scene.")]
     public float moveSpeed = 1f;

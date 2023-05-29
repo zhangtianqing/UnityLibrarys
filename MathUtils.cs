@@ -40,12 +40,33 @@ public class MathUtils
     /// <param name="inputMax">输入最大值</param>
     /// <param name="outputMin">输出最小值</param>
     /// <param name="outputMax">输出最大值</param>
+    /// <param name="InRange">限制输出值在输出区间</param>
     /// <returns></returns>
-    public static float ReMap(float value, float inputMin, float inputMax, float outputMin, float outputMax)
+    public static float ReMap(float value, float inputMin, float inputMax, float outputMin, float outputMax, bool InRange = true)
     {
         float returnValue = (value - inputMin) / (inputMax - inputMin);
         returnValue = (outputMax - outputMin) * returnValue + outputMin;
+        if (InRange)
+        {
+            if (returnValue < outputMin)
+            {
+                return outputMin;
+            }
+            if (returnValue > outputMax)
+            {
+                return outputMax;
+            }
+        }
+
         return returnValue;
+    }
+    public static Vector3 ReMap(Vector3 input, Vector3 minInput, Vector3 maxInput, Vector3 minOutput, Vector3 maxOutput)
+    {
+        return new Vector3(
+                ReMap(input.x, minInput.x, maxInput.x, minOutput.x, maxOutput.x),
+                ReMap(input.y, minInput.y, maxInput.y, minOutput.y, maxOutput.y),
+                ReMap(input.z, minInput.z, maxInput.z, minOutput.z, maxOutput.z)
+            );
     }
 
     /// <summary>
@@ -55,7 +76,7 @@ public class MathUtils
     /// <param name="maxValue"></param>
     /// <param name="minValue"></param>
     /// <returns></returns>
-    private static float Remap(float value, float outputMin, float outputMax)
+    private static float ReMap(float value, float outputMin, float outputMax)
     {
         float returnValue = (value - 1.0f) / (100.0f - 1.0f);
         returnValue = (outputMax - outputMin) * returnValue + outputMin;
