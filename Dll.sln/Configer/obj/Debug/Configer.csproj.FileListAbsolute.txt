@@ -1,0 +1,11 @@
+F:\Workspace\CSharp\Configer\obj\Debug\Configer.csproj.AssemblyReference.cache
+F:\Workspace\CSharp\Configer\obj\Debug\Configer.csproj.CoreCompileInputs.cache
+F:\Workspace\CSharp\Configer\bin\Debug\Configer.dll
+F:\Workspace\CSharp\Configer\bin\Debug\Configer.pdb
+F:\Workspace\CSharp\Configer\bin\Debug\BaseUnityDll.dll
+F:\Workspace\CSharp\Configer\bin\Debug\UnityEngine.dll
+F:\Workspace\CSharp\Configer\bin\Debug\BaseUnityDll.pdb
+F:\Workspace\CSharp\Configer\bin\Debug\UnityEngine.xml
+F:\Workspace\CSharp\Configer\obj\Debug\Configer.csproj.CopyComplete
+F:\Workspace\CSharp\Configer\obj\Debug\Configer.dll
+F:\Workspace\CSharp\Configer\obj\Debug\Configer.pdb

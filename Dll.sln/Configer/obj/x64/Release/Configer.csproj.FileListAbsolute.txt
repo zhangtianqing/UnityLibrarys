@@ -1,0 +1,7 @@
+F:\Workspace\Unity\MyFramework\Assets\Plugins\Dlls\Configer.dll
+F:\Workspace\Unity\MyFramework\Assets\Plugins\Dlls\Configer.pdb
+F:\Workspace\Unity\MyFramework\Dll.sln\Configer\obj\x64\Release\Configer.csproj.AssemblyReference.cache
+F:\Workspace\Unity\MyFramework\Dll.sln\Configer\obj\x64\Release\Configer.csproj.CoreCompileInputs.cache
+F:\Workspace\Unity\MyFramework\Dll.sln\Configer\obj\x64\Release\Configer.csproj.CopyComplete
+F:\Workspace\Unity\MyFramework\Dll.sln\Configer\obj\x64\Release\Configer.dll
+F:\Workspace\Unity\MyFramework\Dll.sln\Configer\obj\x64\Release\Configer.pdb

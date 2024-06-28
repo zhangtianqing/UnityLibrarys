@@ -1,0 +1,9 @@
+F:\Workspace\CSharp\BaseUnityDll\bin\Debug\BaseUnityDll.dll
+F:\Workspace\CSharp\BaseUnityDll\bin\Debug\BaseUnityDll.pdb
+F:\Workspace\CSharp\BaseUnityDll\bin\Debug\UnityEngine.dll
+F:\Workspace\CSharp\BaseUnityDll\bin\Debug\UnityEngine.xml
+F:\Workspace\CSharp\BaseUnityDll\obj\Debug\BaseUnityDll.csproj.AssemblyReference.cache
+F:\Workspace\CSharp\BaseUnityDll\obj\Debug\BaseUnityDll.csproj.CoreCompileInputs.cache
+F:\Workspace\CSharp\BaseUnityDll\obj\Debug\BaseUnityDll.csproj.CopyComplete
+F:\Workspace\CSharp\BaseUnityDll\obj\Debug\BaseUnityDll.dll
+F:\Workspace\CSharp\BaseUnityDll\obj\Debug\BaseUnityDll.pdb

@@ -1,0 +1,6 @@
+F:\Workspace\Unity\MyFramework\Dll.sln\UnityUtils\bin\x64\Debug\UnityUtils.dll
+F:\Workspace\Unity\MyFramework\Dll.sln\UnityUtils\bin\x64\Debug\UnityUtils.pdb
+F:\Workspace\Unity\MyFramework\Dll.sln\UnityUtils\obj\x64\Debug\UnityUtils.csproj.AssemblyReference.cache
+F:\Workspace\Unity\MyFramework\Dll.sln\UnityUtils\obj\x64\Debug\UnityUtils.csproj.CoreCompileInputs.cache
+F:\Workspace\Unity\MyFramework\Dll.sln\UnityUtils\obj\x64\Debug\UnityUtils.dll
+F:\Workspace\Unity\MyFramework\Dll.sln\UnityUtils\obj\x64\Debug\UnityUtils.pdb

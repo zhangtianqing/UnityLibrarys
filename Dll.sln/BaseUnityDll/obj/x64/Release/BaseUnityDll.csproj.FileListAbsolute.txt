@@ -1,0 +1,6 @@
+F:\Workspace\Unity\MyFramework\Assets\Plugins\Dlls\BaseUnityDll.dll
+F:\Workspace\Unity\MyFramework\Assets\Plugins\Dlls\BaseUnityDll.pdb
+F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.csproj.AssemblyReference.cache
+F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.csproj.CoreCompileInputs.cache
+F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.dll
+F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.pdb

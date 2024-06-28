@@ -1,0 +1,11 @@
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\Log\bin\Release\Log.dll
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\Log\bin\Release\BaseUnityDll.dll
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\Log\bin\Release\UnityEngine.CoreModule.dll
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\Log\bin\Release\UnityEngine.SharedInternalsModule.dll
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\Log\bin\Release\BaseUnityDll.pdb
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\Log\bin\Release\UnityEngine.CoreModule.xml
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\Log\bin\Release\UnityEngine.SharedInternalsModule.xml
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\Log\obj\Release\Log.csproj.AssemblyReference.cache
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\Log\obj\Release\Log.csproj.CoreCompileInputs.cache
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\Log\obj\Release\Log.csproj.Up2Date
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\Log\obj\Release\Log.dll

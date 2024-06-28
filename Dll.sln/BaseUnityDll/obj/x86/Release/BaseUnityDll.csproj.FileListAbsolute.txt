@@ -1,0 +1,10 @@
+F:\Workspace\Unity\MyFramework\Assets\Plugins\Dlls\BaseUnityDll.dll
+F:\Workspace\Unity\MyFramework\Assets\Plugins\Dlls\BaseUnityDll.pdb
+F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.csproj.AssemblyReference.cache
+F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.csproj.CoreCompileInputs.cache
+F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.dll
+F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.pdb
+F:\Workspace\Unity\Cz_EggGame\Assets\Plugins\Dlls\BaseUnityDll.dll
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.csproj.AssemblyReference.cache
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.csproj.CoreCompileInputs.cache
+F:\Workspace\Unity\Cz_EggGame\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.dll

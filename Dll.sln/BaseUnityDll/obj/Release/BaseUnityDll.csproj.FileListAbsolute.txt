@@ -1,0 +1,16 @@
+F:\Workspace\CSharp\BaseUnityDll\bin\Release\BaseUnityDll.dll
+F:\Workspace\CSharp\BaseUnityDll\bin\Release\BaseUnityDll.pdb
+F:\Workspace\CSharp\BaseUnityDll\bin\Release\UnityEngine.dll
+F:\Workspace\CSharp\BaseUnityDll\bin\Release\UnityEngine.xml
+F:\Workspace\CSharp\BaseUnityDll\obj\Release\BaseUnityDll.csproj.AssemblyReference.cache
+F:\Workspace\CSharp\BaseUnityDll\obj\Release\BaseUnityDll.csproj.CoreCompileInputs.cache
+F:\Workspace\CSharp\BaseUnityDll\obj\Release\BaseUnityDll.dll
+F:\Workspace\CSharp\BaseUnityDll\obj\Release\BaseUnityDll.pdb
+F:\Workspace\Unity\Test_CZGunSDK\Assets\Plugins\BaseUnityDll.dll
+F:\Workspace\Unity\Test_CZGunSDK\Assets\Plugins\BaseUnityDll.pdb
+F:\Workspace\Unity\MyFramework\Assets\Plugins\Dlls\BaseUnityDll.dll
+F:\Workspace\Unity\MyFramework\Assets\Plugins\Dlls\BaseUnityDll.pdb
+F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\Release\BaseUnityDll.csproj.AssemblyReference.cache
+F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\Release\BaseUnityDll.csproj.CoreCompileInputs.cache
+F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\Release\BaseUnityDll.dll
+F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\Release\BaseUnityDll.pdb

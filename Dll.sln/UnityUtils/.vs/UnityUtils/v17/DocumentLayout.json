@@ -1,0 +1,389 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\randomutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:randomutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\universalextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:universalextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|f:\\workspace\\unity\\cz_egggame\\dll.sln\\unityutils\\mathutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:mathutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\screenshotutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:screenshotutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\playframeasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:playframeasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\monocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:monocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\android\\androidpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:android\\androidpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|UnityUtils||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\probabilitygenerator\\probabilitygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:probabilitygenerator\\probabilitygenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\perlinnoise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:perlinnoise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\loom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:loom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\datetimeutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:datetimeutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\hareware\\usbutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:hareware\\usbutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\bitconverterextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:bitconverterextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\hareware\\netextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:hareware\\netextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\hareware\\localnetworkutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:hareware\\localnetworkutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\stringextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:stringextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\reflectutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:reflectutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\dontdestoryonload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:dontdestoryonload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\unitytimer\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:unitytimer\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\hareware\\serialportutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:hareware\\serialportutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\unitytimer\\timermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:unitytimer\\timermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\unitytimer\\timerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:unitytimer\\timerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RandomUtils.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\RandomUtils.cs",
+              "RelativeDocumentMoniker": "RandomUtils.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\RandomUtils.cs",
+              "RelativeToolTip": "RandomUtils.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAuwFsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:43.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Loom.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\Loom.cs",
+              "RelativeDocumentMoniker": "Loom.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\Loom.cs",
+              "RelativeToolTip": "Loom.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAcwFQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PerlinNoise.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\PerlinNoise.cs",
+              "RelativeDocumentMoniker": "PerlinNoise.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\PerlinNoise.cs",
+              "RelativeToolTip": "PerlinNoise.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ReflectUtil.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\ReflectUtil.cs",
+              "RelativeDocumentMoniker": "ReflectUtil.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\ReflectUtil.cs",
+              "RelativeToolTip": "ReflectUtil.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAMBbwHAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MonoController.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\MonoController.cs",
+              "RelativeDocumentMoniker": "MonoController.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\MonoController.cs",
+              "RelativeToolTip": "MonoController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvxEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MathUtils.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\MathUtils.cs",
+              "RelativeDocumentMoniker": "MathUtils.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\MathUtils.cs",
+              "RelativeToolTip": "MathUtils.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAcwHEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UnityUtils",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\UnityUtils.csproj",
+              "RelativeDocumentMoniker": "UnityUtils.csproj",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\UnityUtils.csproj",
+              "RelativeToolTip": "UnityUtils.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-08-24T05:50:45.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AndroidPermission.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\Android\\AndroidPermission.cs",
+              "RelativeDocumentMoniker": "Android\\AndroidPermission.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\Android\\AndroidPermission.cs",
+              "RelativeToolTip": "Android\\AndroidPermission.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "USBUtil.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\Hareware\\USBUtil.cs",
+              "RelativeDocumentMoniker": "Hareware\\USBUtil.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\Hareware\\USBUtil.cs",
+              "RelativeToolTip": "Hareware\\USBUtil.cs",
+              "ViewState": "AQIAALcBAAAAAAAAAAAowMsBAABQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScreenShotUtil.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\ScreenShotUtil.cs",
+              "RelativeDocumentMoniker": "ScreenShotUtil.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\ScreenShotUtil.cs",
+              "RelativeToolTip": "ScreenShotUtil.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAApwEYAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UniversalExtend.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\UniversalExtend.cs",
+              "RelativeDocumentMoniker": "UniversalExtend.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\UniversalExtend.cs",
+              "RelativeToolTip": "UniversalExtend.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwB4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayFrameAsync.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\PlayFrameAsync.cs",
+              "RelativeDocumentMoniker": "PlayFrameAsync.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\PlayFrameAsync.cs",
+              "RelativeToolTip": "PlayFrameAsync.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DateTimeUtil.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\DateTimeUtil.cs",
+              "RelativeDocumentMoniker": "DateTimeUtil.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\DateTimeUtil.cs",
+              "RelativeToolTip": "DateTimeUtil.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BitConverterExtend.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\BitConverterExtend.cs",
+              "RelativeDocumentMoniker": "BitConverterExtend.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\BitConverterExtend.cs",
+              "RelativeToolTip": "BitConverterExtend.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAqwC0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "StringExtend.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\StringExtend.cs",
+              "RelativeDocumentMoniker": "StringExtend.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\StringExtend.cs",
+              "RelativeToolTip": "StringExtend.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProbabilityGenerator.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\ProbabilityGenerator\\ProbabilityGenerator.cs",
+              "RelativeDocumentMoniker": "ProbabilityGenerator\\ProbabilityGenerator.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\ProbabilityGenerator\\ProbabilityGenerator.cs",
+              "RelativeToolTip": "ProbabilityGenerator\\ProbabilityGenerator.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAqwA0AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NetExtend.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\Hareware\\NetExtend.cs",
+              "RelativeDocumentMoniker": "Hareware\\NetExtend.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\Hareware\\NetExtend.cs",
+              "RelativeToolTip": "Hareware\\NetExtend.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LocalNetworkUtil.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\Hareware\\LocalNetworkUtil.cs",
+              "RelativeDocumentMoniker": "Hareware\\LocalNetworkUtil.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\Hareware\\LocalNetworkUtil.cs",
+              "RelativeToolTip": "Hareware\\LocalNetworkUtil.cs",
+              "ViewState": "AQIAAEgAAAAAAAAAAABYwGgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DontDestoryOnLoad.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\DontDestoryOnLoad.cs",
+              "RelativeDocumentMoniker": "DontDestoryOnLoad.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\DontDestoryOnLoad.cs",
+              "RelativeToolTip": "DontDestoryOnLoad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.574Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\UnityTimer\\Timer.cs",
+              "RelativeDocumentMoniker": "UnityTimer\\Timer.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\UnityTimer\\Timer.cs",
+              "RelativeToolTip": "UnityTimer\\Timer.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAABQwAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SerialPortUtility.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\Hareware\\SerialPortUtility.cs",
+              "RelativeDocumentMoniker": "Hareware\\SerialPortUtility.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\Hareware\\SerialPortUtility.cs",
+              "RelativeToolTip": "Hareware\\SerialPortUtility.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TimerManager.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\UnityTimer\\TimerManager.cs",
+              "RelativeDocumentMoniker": "UnityTimer\\TimerManager.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\UnityTimer\\TimerManager.cs",
+              "RelativeToolTip": "UnityTimer\\TimerManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TimerExtensions.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\UnityTimer\\TimerExtensions.cs",
+              "RelativeDocumentMoniker": "UnityTimer\\TimerExtensions.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\UnityUtils\\UnityTimer\\TimerExtensions.cs",
+              "RelativeToolTip": "UnityTimer\\TimerExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T08:02:27.576Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

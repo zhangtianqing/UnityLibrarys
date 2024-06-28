@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|f:\\workspace\\unity\\cz_egggame\\dll.sln\\baseunitydll\\baseclass\\monobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:baseclass\\monobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|f:\\workspace\\unity\\cz_egggame\\dll.sln\\baseunitydll\\interface\\ilogginghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:interface\\ilogginghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|f:\\workspace\\unity\\cz_egggame\\dll.sln\\baseunitydll\\singleton\\monosingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:singleton\\monosingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\singleton\\classsingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:singleton\\classsingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\enum\\unitypositionenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:enum\\unitypositionenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\enum\\csworkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:enum\\csworkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\attribute\\plantdir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:attribute\\plantdir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ILoggingHandler.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Interface\\ILoggingHandler.cs",
+              "RelativeDocumentMoniker": "Interface\\ILoggingHandler.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Interface\\ILoggingHandler.cs",
+              "RelativeToolTip": "Interface\\ILoggingHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T02:13:24.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MonoBase.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\BaseClass\\MonoBase.cs",
+              "RelativeDocumentMoniker": "BaseClass\\MonoBase.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\BaseClass\\MonoBase.cs",
+              "RelativeToolTip": "BaseClass\\MonoBase.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T02:08:27.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MonoSingleton.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Singleton\\MonoSingleton.cs",
+              "RelativeDocumentMoniker": "Singleton\\MonoSingleton.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Singleton\\MonoSingleton.cs",
+              "RelativeToolTip": "Singleton\\MonoSingleton.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:15:06.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClassSingleton.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Singleton\\ClassSingleton.cs",
+              "RelativeDocumentMoniker": "Singleton\\ClassSingleton.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Singleton\\ClassSingleton.cs",
+              "RelativeToolTip": "Singleton\\ClassSingleton.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAwCMAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:16:42.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PlantDir.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Attribute\\PlantDir.cs",
+              "RelativeDocumentMoniker": "Attribute\\PlantDir.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Attribute\\PlantDir.cs",
+              "RelativeToolTip": "Attribute\\PlantDir.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T02:15:26.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CSWorkModel.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Enum\\CSWorkModel.cs",
+              "RelativeDocumentMoniker": "Enum\\CSWorkModel.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Enum\\CSWorkModel.cs",
+              "RelativeToolTip": "Enum\\CSWorkModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T08:48:12.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UnityPositionEnum.cs",
+              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Enum\\UnityPositionEnum.cs",
+              "RelativeDocumentMoniker": "Enum\\UnityPositionEnum.cs",
+              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Enum\\UnityPositionEnum.cs",
+              "RelativeToolTip": "Enum\\UnityPositionEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T07:59:58.814Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
