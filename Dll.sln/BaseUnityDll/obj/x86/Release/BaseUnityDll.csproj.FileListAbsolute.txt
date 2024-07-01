@@ -8,3 +8,7 @@ F:\Workspace\Unity\Cz_EggGame\Assets\Plugins\Dlls\BaseUnityDll.dll
 F:\Workspace\Unity\Cz_EggGame\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.csproj.AssemblyReference.cache
 F:\Workspace\Unity\Cz_EggGame\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.csproj.CoreCompileInputs.cache
 F:\Workspace\Unity\Cz_EggGame\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.dll
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.csproj.AssemblyReference.cache
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.csproj.CoreCompileInputs.cache
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\obj\x86\Release\BaseUnityDll.dll
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\bin\BaseUnityDll.dll
