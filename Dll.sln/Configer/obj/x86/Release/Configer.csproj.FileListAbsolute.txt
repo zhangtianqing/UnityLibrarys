@@ -6,3 +6,10 @@ F:\Workspace\Unity\MyFramework\Dll.sln\Configer\obj\x86\Release\Configer.dll
 F:\Workspace\Unity\MyFramework\Dll.sln\Configer\obj\x86\Release\Configer.pdb
 F:\Workspace\Unity\Cz_FunFestEgg\Assets\Plugins\Dlls\Configer.dll
 F:\Workspace\Unity\Cz_FunFestEgg\Assets\Plugins\Dlls\Configer.pdb
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\Configer\obj\x86\Release\Configer.csproj.AssemblyReference.cache
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\Configer\obj\x86\Release\Configer.csproj.CoreCompileInputs.cache
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\Configer\obj\x86\Release\Configer.dll
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\Configer\obj\x86\Release\Configer.pdb
+D:\Document\Documents\GitHub\UnityLibrarys\Assets\Plugins\Dlls\Configer.dll
+D:\Document\Documents\GitHub\UnityLibrarys\Assets\Plugins\Dlls\Configer.pdb
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\Configer\obj\x86\Release\Configer.csproj.Up2Date

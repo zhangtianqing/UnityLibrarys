@@ -5,3 +5,10 @@ F:\Workspace\Unity\MyFramework\Dll.sln\Configer\obj\x64\Release\Configer.csproj.
 F:\Workspace\Unity\MyFramework\Dll.sln\Configer\obj\x64\Release\Configer.csproj.CopyComplete
 F:\Workspace\Unity\MyFramework\Dll.sln\Configer\obj\x64\Release\Configer.dll
 F:\Workspace\Unity\MyFramework\Dll.sln\Configer\obj\x64\Release\Configer.pdb
+D:\Document\Documents\GitHub\UnityLibrarys\Assets\Plugins\Dlls\Configer.dll
+D:\Document\Documents\GitHub\UnityLibrarys\Assets\Plugins\Dlls\Configer.pdb
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\Configer\obj\x64\Release\Configer.csproj.AssemblyReference.cache
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\Configer\obj\x64\Release\Configer.csproj.CoreCompileInputs.cache
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\Configer\obj\x64\Release\Configer.csproj.Up2Date
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\Configer\obj\x64\Release\Configer.dll
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\Configer\obj\x64\Release\Configer.pdb

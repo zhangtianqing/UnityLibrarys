@@ -1,7 +1,6 @@
 ﻿
-
-using Dll.Framework.Config.ConfigClass;
 using Dll.Framework.Config.ConfigLoader;
+using Dll.Framework.Configer.ConfigClass;
 using UnityEngine;
 
 [DisallowMultipleComponent]
@@ -27,15 +26,17 @@ public class Configer : MonoSingleton<Configer>
     /// </summary>
     public IConfigLoader loader1;
 
-    private void Awake()
+    protected override  void Awake()
     {
+        base.Awake();
         gameConfig = Instance.gameConfig;
     }
     /// <summary>
     /// 配置初始化方法
     /// </summary>
-    public override void Init()
+    protected override void OnInstace()
     {
+        base.OnInstace();
         //Debug.Log("Configer-初始化");
         //根据实现配置存取类型实例化对应的配置加载器
         switch (configType)
@@ -47,6 +48,9 @@ public class Configer : MonoSingleton<Configer>
                 Debug.Log("此加载方法仅支持2层加载，配置类持有多个子类，子类不得再持有子类");
                 //throw new System.Exception("没有实现这个方法");
                 loader1 = new ConfigLoader_INI();
+                break;
+            case ConfigType.JSON:
+                loader1=new ConfigLoader_JSON();
                 break;
             default:
                 loader1 = new ConfigLoader_XML();
@@ -92,7 +96,8 @@ public class Configer : MonoSingleton<Configer>
     public enum ConfigType
     {
         XML,
-        INI
+        INI,
+        JSON
     }
 
 }

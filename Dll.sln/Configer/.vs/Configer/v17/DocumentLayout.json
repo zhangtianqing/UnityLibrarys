@@ -5,6 +5,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{C466B61C-DC3C-47E8-8A76-6DDB243D15D8}|Configer.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\configer\\dll\\configer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C466B61C-DC3C-47E8-8A76-6DDB243D15D8}|Configer.csproj|solutionrelative:dll\\configer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C466B61C-DC3C-47E8-8A76-6DDB243D15D8}|Configer.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\configer\\dll\\configloader\\configloader_json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C466B61C-DC3C-47E8-8A76-6DDB243D15D8}|Configer.csproj|solutionrelative:dll\\configloader\\configloader_json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C466B61C-DC3C-47E8-8A76-6DDB243D15D8}|Configer.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\configer\\dll\\configloader\\configloader_xml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C466B61C-DC3C-47E8-8A76-6DDB243D15D8}|Configer.csproj|solutionrelative:dll\\configloader\\configloader_xml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C466B61C-DC3C-47E8-8A76-6DDB243D15D8}|Configer.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\configer\\dll\\configloader\\configloader_ini.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C466B61C-DC3C-47E8-8A76-6DDB243D15D8}|Configer.csproj|solutionrelative:dll\\configloader\\configloader_ini.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +26,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConfigLoader_JSON.cs",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\Configer\\Dll\\ConfigLoader\\ConfigLoader_JSON.cs",
+              "RelativeDocumentMoniker": "Dll\\ConfigLoader\\ConfigLoader_JSON.cs",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\Configer\\Dll\\ConfigLoader\\ConfigLoader_JSON.cs",
+              "RelativeToolTip": "Dll\\ConfigLoader\\ConfigLoader_JSON.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T10:24:31.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConfigLoader_XML.cs",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\Configer\\Dll\\ConfigLoader\\ConfigLoader_XML.cs",
+              "RelativeDocumentMoniker": "Dll\\ConfigLoader\\ConfigLoader_XML.cs",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\Configer\\Dll\\ConfigLoader\\ConfigLoader_XML.cs",
+              "RelativeToolTip": "Dll\\ConfigLoader\\ConfigLoader_XML.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T10:22:38.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ConfigLoader_INI.cs",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\Configer\\Dll\\ConfigLoader\\ConfigLoader_INI.cs",
+              "RelativeDocumentMoniker": "Dll\\ConfigLoader\\ConfigLoader_INI.cs",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\Configer\\Dll\\ConfigLoader\\ConfigLoader_INI.cs",
+              "RelativeToolTip": "Dll\\ConfigLoader\\ConfigLoader_INI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T10:22:28.69Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +75,7 @@
               "RelativeDocumentMoniker": "Dll\\Configer.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\Configer\\Dll\\Configer.cs",
               "RelativeToolTip": "Dll\\Configer.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAwEIAAAAlAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAqwFgAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-28T07:59:09.015Z",
               "EditorCaption": ""

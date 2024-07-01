@@ -73,12 +73,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="BaseUnityDll">
-      <HintPath>..\BaseUnityDll\bin\Release\BaseUnityDll.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\BaseUnityDll\bin\release\x64\BaseUnityDll.dll</HintPath>
     </Reference>
     <Reference Include="ConfigClass">
-      <HintPath>..\..\Library\ScriptAssemblies\ConfigClass.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>F:\Workspace\Unity\Cz_EggGame\bin\Cz_EggGame_Data\Managed\ConfigClass.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>F:\Workspace\Unity\Cz_EggGame\bin\Cz_EggGame_Data\Managed\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -88,9 +89,8 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
-    <Reference Include="UnityEngine">
-      <HintPath>D:\Program Files\UnityEditor\2021.3.23f1c1\Editor\Data\Managed\UnityEngine.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>F:\Workspace\Unity\Cz_EggGame\bin\Cz_EggGame_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityUtils, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -101,6 +101,7 @@
   <ItemGroup>
     <Compile Include="Dll\Configer.cs" />
     <Compile Include="Dll\ConfigLoader\ConfigLoader_INI.cs" />
+    <Compile Include="Dll\ConfigLoader\ConfigLoader_JSON.cs" />
     <Compile Include="Dll\ConfigLoader\ConfigLoader_XML.cs" />
     <Compile Include="Dll\ConfigLoader\IConfigLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -3,41 +3,12 @@
   "WorkspaceRootPath": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BaseUnityDll||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\baseunitydll\\baseclass\\simplebasefsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:baseclass\\simplebasefsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\baseunitydll\\baseclass\\baseodds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:baseclass\\baseodds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\attribute\\plantdir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:attribute\\plantdir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\baseclass\\monobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:baseclass\\monobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\singleton\\monosingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:singleton\\monosingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\singleton\\classsingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:singleton\\classsingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\enum\\unitypositionenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:enum\\unitypositionenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\enum\\csworkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:enum\\csworkmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Interface\\ILoggingHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\baseunitydll\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
+      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\baseunitydll\\class\\baseparmalll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:class\\baseparmalll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,114 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BaseUnityDll",
-              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseUnityDll.csproj",
-              "RelativeDocumentMoniker": "BaseUnityDll.csproj",
-              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseUnityDll.csproj",
-              "RelativeToolTip": "BaseUnityDll.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-28T08:00:55.895Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BaseOdds.cs",
-              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\BaseOdds.cs",
-              "RelativeDocumentMoniker": "BaseClass\\BaseOdds.cs",
-              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\BaseOdds.cs",
-              "RelativeToolTip": "BaseClass\\BaseOdds.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAAwB8AAAAOAAAA",
+              "Title": "BaseParmAlll.cs",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Class\\BaseParmAlll.cs",
+              "RelativeDocumentMoniker": "Class\\BaseParmAlll.cs",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Class\\BaseParmAlll.cs",
+              "RelativeToolTip": "Class\\BaseParmAlll.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T07:59:46.078Z",
+              "WhenOpened": "2024-07-01T06:46:12.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ILoggingHandler.cs",
-              "DocumentMoniker": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Interface\\ILoggingHandler.cs",
-              "ToolTip": "F:\\Workspace\\Unity\\Cz_EggGame\\Dll.sln\\BaseUnityDll\\Interface\\ILoggingHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "DocumentIndex": 0,
+              "Title": "SimpleBaseFSM.cs",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\SimpleBaseFSM.cs",
+              "RelativeDocumentMoniker": "BaseClass\\SimpleBaseFSM.cs",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\SimpleBaseFSM.cs",
+              "RelativeToolTip": "BaseClass\\SimpleBaseFSM.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAADgvwUAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T02:13:24.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MonoBase.cs",
-              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\MonoBase.cs",
-              "RelativeDocumentMoniker": "BaseClass\\MonoBase.cs",
-              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\MonoBase.cs",
-              "RelativeToolTip": "BaseClass\\MonoBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-28T02:08:27.273Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MonoSingleton.cs",
-              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Singleton\\MonoSingleton.cs",
-              "RelativeDocumentMoniker": "Singleton\\MonoSingleton.cs",
-              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Singleton\\MonoSingleton.cs",
-              "RelativeToolTip": "Singleton\\MonoSingleton.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T02:15:06.006Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ClassSingleton.cs",
-              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Singleton\\ClassSingleton.cs",
-              "RelativeDocumentMoniker": "Singleton\\ClassSingleton.cs",
-              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Singleton\\ClassSingleton.cs",
-              "RelativeToolTip": "Singleton\\ClassSingleton.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAAwCMAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T02:16:42.219Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlantDir.cs",
-              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Attribute\\PlantDir.cs",
-              "RelativeDocumentMoniker": "Attribute\\PlantDir.cs",
-              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Attribute\\PlantDir.cs",
-              "RelativeToolTip": "Attribute\\PlantDir.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAswAQAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T02:15:26.21Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CSWorkModel.cs",
-              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Enum\\CSWorkModel.cs",
-              "RelativeDocumentMoniker": "Enum\\CSWorkModel.cs",
-              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Enum\\CSWorkModel.cs",
-              "RelativeToolTip": "Enum\\CSWorkModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwYAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T08:48:12.861Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UnityPositionEnum.cs",
-              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Enum\\UnityPositionEnum.cs",
-              "RelativeDocumentMoniker": "Enum\\UnityPositionEnum.cs",
-              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Enum\\UnityPositionEnum.cs",
-              "RelativeToolTip": "Enum\\UnityPositionEnum.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T07:59:58.814Z"
+              "WhenOpened": "2024-07-01T06:41:06.011Z",
+              "EditorCaption": ""
             }
           ]
         }

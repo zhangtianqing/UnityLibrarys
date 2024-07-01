@@ -3,7 +3,7 @@
 using System.IO;
 using UnityEngine;
 
-namespace BaseUnityDll.Enum
+namespace BaseUnityDll.Enums
 {
     public enum UnityPositionEnum
     {
