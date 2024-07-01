@@ -4,3 +4,9 @@ F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll
 F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.csproj.CoreCompileInputs.cache
 F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.dll
 F:\Workspace\Unity\MyFramework\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.pdb
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\bin\release\x64\BaseUnityDll.dll
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\bin\release\x64\BaseUnityDll.pdb
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.csproj.AssemblyReference.cache
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.csproj.CoreCompileInputs.cache
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.dll
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.pdb

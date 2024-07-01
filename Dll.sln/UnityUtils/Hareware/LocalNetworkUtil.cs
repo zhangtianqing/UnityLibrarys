@@ -1,13 +1,12 @@
-using Assets.Scripts.Framework.Utils;
-using Dll.UnityUtils;
 using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using UnityEngine;
-namespace Dll.UnityUtils.Hareware { 
-public class LocalNetworkUtil
+namespace Dll.UnityUtils.Hareware
+{
+    public class LocalNetworkUtil
 {
     public static List<IPAddress> GetBroadcasts()
     {

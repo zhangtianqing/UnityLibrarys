@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Text;
-using UnityEngine;
 
 namespace Dll.UnityUtils
 {
@@ -19,22 +16,6 @@ namespace Dll.UnityUtils
             }
             return sv.ToString() + ")";
         }
-        //public static List<T> RandomSort<T>(this List<T> list)
-        //{
-        //    var random = new System.Random();
-        //    var newList = new List<T>();
-        //    foreach (var item in list)
-        //    {
-        //        newList.Insert(random.Next(newList.Count), item);
-        //    }
-        //    return newList;
-        //}
 
-        public static IEnumerator DelayToDo(float
-            time, Action callback)
-        {
-            yield return new WaitForSeconds(time);
-            callback?.Invoke();
-        }
     }
 }

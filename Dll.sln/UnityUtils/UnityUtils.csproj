@@ -26,7 +26,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>..\..\Assets\Plugins\Dlls\</OutputPath>
+    <OutputPath>bin\realease\x64\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -71,10 +71,8 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BaseUnityDll, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Assets\Plugins\Dlls\BaseUnityDll.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="BaseUnityDll">
+      <HintPath>..\BaseUnityDll\bin\release\x64\BaseUnityDll.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -126,7 +124,7 @@
     <Compile Include="ReflectUtil.cs" />
     <Compile Include="ScreenShotUtil.cs" />
     <Compile Include="StringExtend.cs" />
-    <Compile Include="UnityTimer\Timer.cs" />
+    <Compile Include="UnityTimer\UnityTimer.cs" />
     <Compile Include="UnityTimer\TimerExtensions.cs" />
     <Compile Include="UnityTimer\TimerManager.cs" />
     <Compile Include="UniversalExtend.cs" />

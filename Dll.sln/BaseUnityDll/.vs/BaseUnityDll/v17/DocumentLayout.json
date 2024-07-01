@@ -3,14 +3,14 @@
   "WorkspaceRootPath": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BaseUnityDll||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\baseunitydll\\baseclass\\baseodds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:baseclass\\baseodds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BaseUnityDll||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\baseunitydll\\attribute\\plantdir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\attribute\\plantdir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:attribute\\plantdir.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -47,11 +47,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BaseUnityDll",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseUnityDll.csproj",
               "RelativeDocumentMoniker": "BaseUnityDll.csproj",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "BaseOdds.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\BaseOdds.cs",
               "RelativeDocumentMoniker": "BaseClass\\BaseOdds.cs",
@@ -130,8 +130,7 @@
               "RelativeToolTip": "Attribute\\PlantDir.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAswAQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T02:15:26.21Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T02:15:26.21Z"
             },
             {
               "$type": "Document",

@@ -5,15 +5,12 @@
  * By: Alexander Biggs + Adam Robinson-Yu
  */
 
-using UnityEngine;
-using System;
-using System.Linq;
-using System.Collections.Generic;
-using JetBrains.Annotations;
-using Object = UnityEngine.Object;
 using Dll.UnityUtils.UnityTimer;
+using System;
+using UnityEngine;
+using Object = UnityEngine.Object;
 
-public class Timer
+public class UnityTimer
 {
     #region Public Properties/Fields
 
@@ -84,27 +81,27 @@ public class Timer
     /// by preventing the timer from running and accessessing its parents' components
     /// after the parent has been destroyed.</param>
     /// <returns>A timer object that allows you to examine stats and stop/resume progress.</returns>
-    public static Timer Register(float duration, Action onComplete, Action<float> onUpdate = null,
+    public static UnityTimer Register(float duration, Action onComplete, Action<float> onUpdate = null,
         bool isLooped = false, bool useRealTime = false, MonoBehaviour autoDestroyOwner = null)
     {
         // create a manager object to update all the timers if one does not already exist.
-        if (Timer._manager == null)
+        if (UnityTimer._manager == null)
         {
             TimerManager managerInScene = Object.FindObjectOfType<TimerManager>();
             if (managerInScene != null)
             {
-                Timer._manager = managerInScene;
+                UnityTimer._manager = managerInScene;
             }
             else
             {
                 GameObject managerObject = new GameObject { name = "TimerManager" };
-                Timer._manager = managerObject.AddComponent<TimerManager>();
+                UnityTimer._manager = managerObject.AddComponent<TimerManager>();
             }
         }
         Debug.LogWarning($"×¢²áTimer:{duration}, {onComplete},{onUpdate}, {isLooped}, {useRealTime}, {autoDestroyOwner}");
 
-        Timer timer = new Timer(duration, onComplete, onUpdate, isLooped, useRealTime, autoDestroyOwner);
-        Timer._manager.RegisterTimer(timer);
+        UnityTimer timer = new UnityTimer(duration, onComplete, onUpdate, isLooped, useRealTime, autoDestroyOwner);
+        UnityTimer._manager.RegisterTimer(timer);
         return timer;
     }
 
@@ -113,7 +110,7 @@ public class Timer
     /// a <see cref="NullReferenceException"/> if the timer is null.
     /// </summary>
     /// <param name="timer">The timer to cancel.</param>
-    public static void Cancel(Timer timer)
+    public static void Cancel(UnityTimer timer)
     {
         if (timer != null)
         {
@@ -126,7 +123,7 @@ public class Timer
     /// a <see cref="NullReferenceException"/> if the timer is null.
     /// </summary>
     /// <param name="timer">The timer to pause.</param>
-    public static void Pause(Timer timer)
+    public static void Pause(UnityTimer timer)
     {
         if (timer != null)
         {
@@ -139,7 +136,7 @@ public class Timer
     /// a <see cref="NullReferenceException"/> if the timer is null.
     /// </summary>
     /// <param name="timer">The timer to resume.</param>
-    public static void Resume(Timer timer)
+    public static void Resume(UnityTimer timer)
     {
         if (timer != null)
         {
@@ -149,9 +146,9 @@ public class Timer
 
     public static void CancelAllRegisteredTimers()
     {
-        if (Timer._manager != null)
+        if (UnityTimer._manager != null)
         {
-            Timer._manager.CancelAllTimers();
+            UnityTimer._manager.CancelAllTimers();
         }
 
         // if the manager doesn't exist, we don't have any registered timers yet, so don't
@@ -160,9 +157,9 @@ public class Timer
 
     public static void PauseAllRegisteredTimers()
     {
-        if (Timer._manager != null)
+        if (UnityTimer._manager != null)
         {
-            Timer._manager.PauseAllTimers();
+            UnityTimer._manager.PauseAllTimers();
         }
 
         // if the manager doesn't exist, we don't have any registered timers yet, so don't
@@ -171,9 +168,9 @@ public class Timer
 
     public static void ResumeAllRegisteredTimers()
     {
-        if (Timer._manager != null)
+        if (UnityTimer._manager != null)
         {
-            Timer._manager.ResumeAllTimers();
+            UnityTimer._manager.ResumeAllTimers();
         }
 
         // if the manager doesn't exist, we don't have any registered timers yet, so don't
@@ -313,7 +310,7 @@ public class Timer
 
     #region Private Constructor (use static Register method to create new timer)
 
-    private Timer(float duration, Action onComplete, Action<float> onUpdate,
+    private UnityTimer(float duration, Action onComplete, Action<float> onUpdate,
         bool isLooped, bool usesRealTime, MonoBehaviour autoDestroyOwner)
     {
         this.duration = duration;
