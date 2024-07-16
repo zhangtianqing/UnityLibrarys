@@ -31,6 +31,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <LangVersion>8.0</LangVersion>
+    <DocumentationFile>bin\realease\x64\UnityUtils.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>
@@ -117,6 +118,7 @@
     <Compile Include="MonoController.cs" />
     <Compile Include="Hareware\NetExtend.cs" />
     <Compile Include="PerlinNoise.cs" />
+    <Compile Include="PlatformUtil.cs" />
     <Compile Include="PlayFrameAsync.cs" />
     <Compile Include="ProbabilityGenerator\ProbabilityGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

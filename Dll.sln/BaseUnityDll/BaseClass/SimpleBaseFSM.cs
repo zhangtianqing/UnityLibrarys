@@ -4,14 +4,26 @@ using System.Collections.Generic;
 using System.Reflection;
 using UnityEngine;
 using static BaseUnityDll.Class.BaseParmAlll;
+using static UnityEngine.CullingGroup;
 
 namespace BaseUnityDll.BaseClass
 {
     public class SimpleBaseFSM<T> : MonoBehaviour where T : Enum
     {
         public T currentState;
+        /// <summary>
+        /// CurrentState TargetState
+        /// </summary>
+        public  Action<T,T> stateChange;
+
         protected virtual void Awake() {
             InitStates();
+        }
+        protected virtual void Start()
+        {
+
+            //切换到目标状态
+            SwitchState((T)Enum.ToObject(typeof(T), -1));
         }
         Dictionary<T, StateChangedEvent> stateCtrl = new Dictionary<T, StateChangedEvent>();
         void InitStates()
@@ -49,16 +61,14 @@ namespace BaseUnityDll.BaseClass
                 }
             }
 
-            //切换到目标状态
-            SwitchState( (T)Enum.ToObject(typeof(T),-1));
         }
-        protected void Update() {
+        protected virtual void Update() {
             if (stateCtrl.TryGetValue(currentState, out StateChangedEvent stateChangedEvent)) stateChangedEvent.OnUpdate?.Invoke();
         }
 
         //外部控制targetState的状态
         public void SwitchStateProxy(T targetState, BaseParm inputPara = null) => SwitchState(targetState, inputPara);
-        void SwitchState(T targetState, BaseParm inputPara = null)
+        protected void SwitchState(T targetState, BaseParm inputPara = null)
         {
             BaseParm baseParmExit = null;
             BaseParm baseParmStart = null;
@@ -71,6 +81,7 @@ namespace BaseUnityDll.BaseClass
             if (!EqualityComparer<T>.Default.Equals(currentState, targetState)) //避免重复切换
             {
 
+                stateChange?.Invoke(currentState, targetState);
                 Debug.LogWarning($"SwitchState:from {currentState} to {targetState}");
                 try
                 {

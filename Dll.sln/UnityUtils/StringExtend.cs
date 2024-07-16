@@ -8,7 +8,8 @@ namespace Dll.UnityUtils
         /// <summary>
         /// 剔除字符串中不合法的文件名
         /// </summary>
-        /// <param name="strFileName"></param>
+        /// <param name="strFileName">文件名</param>
+        /// <param name="replaceStr">替换字符串</param>
         /// <returns></returns>
         public static string FilterFileName(string strFileName, string replaceStr = "")
         {
@@ -20,8 +21,8 @@ namespace Dll.UnityUtils
         /// <summary>
         /// 剔除字符串中不合法的文件路径字符
         /// </summary>
-        /// <param name="rPath"></param>
-        /// <param name="replaceStr"></param>
+        /// <param name="rPath">文件路径</param>
+        /// <param name="replaceStr">替换字符串</param>
         /// <returns></returns>
         public static string FilterDirectoryPath(string rPath, string replaceStr = "")
         {

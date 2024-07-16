@@ -110,6 +110,7 @@ namespace Dll.UnityUtils
          /// <param name="value">输入值</param>
          /// <param name="outputMin">输出最小值</param>
          /// <param name="outputMax">输出最大值</param>
+         /// <param name="inRange">是否限制在范围内</param>
          /// <returns></returns>
         public static float ReMap(float value, float outputMin, float outputMax, bool inRange = true)
         {
@@ -148,7 +149,9 @@ namespace Dll.UnityUtils
         /// <summary>
         /// 屏幕坐标转世界坐标
         /// </summary>
+        /// <param name="camera">转换使用的相机</param>
         /// <param name="screenPos">2D屏幕位置</param>
+        /// <param name="dis">3D距离</param>
         /// <returns></returns>
         public static Vector3 GetWorldPos(Camera camera, Vector2 screenPos, float dis = 25)
         {

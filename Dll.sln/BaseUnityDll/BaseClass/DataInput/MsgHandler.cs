@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Net;
 using UnityEngine;
 
-namespace Scripts.DataInput
+namespace BaseUnityDll.BaseClass.DataInput
 {
     public class MsgHandler : MonoBehaviour
     {

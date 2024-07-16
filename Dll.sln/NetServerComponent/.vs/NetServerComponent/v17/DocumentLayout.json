@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E24E7690-E619-4CCE-BE7A-397B4AFFC517}|NetServerComponent\\NetServerComponent.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\netservercomponent\\netservercomponent\\impl\\tcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24E7690-E619-4CCE-BE7A-397B4AFFC517}|NetServerComponent\\NetServerComponent.csproj|solutionrelative:netservercomponent\\impl\\tcpserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24E7690-E619-4CCE-BE7A-397B4AFFC517}|NetServerComponent\\NetServerComponent.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\netservercomponent\\netservercomponent\\base\\msgdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24E7690-E619-4CCE-BE7A-397B4AFFC517}|NetServerComponent\\NetServerComponent.csproj|solutionrelative:netservercomponent\\base\\msgdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24E7690-E619-4CCE-BE7A-397B4AFFC517}|NetServerComponent\\NetServerComponent.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\netservercomponent\\netservercomponent\\base\\netinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24E7690-E619-4CCE-BE7A-397B4AFFC517}|NetServerComponent\\NetServerComponent.csproj|solutionrelative:netservercomponent\\base\\netinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24E7690-E619-4CCE-BE7A-397B4AFFC517}|NetServerComponent\\NetServerComponent.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\netservercomponent\\netservercomponent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24E7690-E619-4CCE-BE7A-397B4AFFC517}|NetServerComponent\\NetServerComponent.csproj|solutionrelative:netservercomponent\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24E7690-E619-4CCE-BE7A-397B4AFFC517}|NetServerComponent\\NetServerComponent.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\netservercomponent\\netservercomponent\\enum\\actioncode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24E7690-E619-4CCE-BE7A-397B4AFFC517}|NetServerComponent\\NetServerComponent.csproj|solutionrelative:netservercomponent\\enum\\actioncode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E24E7690-E619-4CCE-BE7A-397B4AFFC517}|NetServerComponent\\NetServerComponent.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\netservercomponent\\netservercomponent\\enum\\msgtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E24E7690-E619-4CCE-BE7A-397B4AFFC517}|NetServerComponent\\NetServerComponent.csproj|solutionrelative:netservercomponent\\enum\\msgtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActionCode.cs",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\NetServerComponent\\Enum\\ActionCode.cs",
+              "RelativeDocumentMoniker": "NetServerComponent\\Enum\\ActionCode.cs",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\NetServerComponent\\Enum\\ActionCode.cs",
+              "RelativeToolTip": "NetServerComponent\\Enum\\ActionCode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:20:10.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MsgData.cs",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\NetServerComponent\\Base\\MsgData.cs",
+              "RelativeDocumentMoniker": "NetServerComponent\\Base\\MsgData.cs",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\NetServerComponent\\Base\\MsgData.cs",
+              "RelativeToolTip": "NetServerComponent\\Base\\MsgData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:19:49.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MsgType.cs",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\NetServerComponent\\Enum\\MsgType.cs",
+              "RelativeDocumentMoniker": "NetServerComponent\\Enum\\MsgType.cs",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\NetServerComponent\\Enum\\MsgType.cs",
+              "RelativeToolTip": "NetServerComponent\\Enum\\MsgType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:16:12.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TcpServer.cs",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\NetServerComponent\\Impl\\TcpServer.cs",
+              "RelativeDocumentMoniker": "NetServerComponent\\Impl\\TcpServer.cs",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\NetServerComponent\\Impl\\TcpServer.cs",
+              "RelativeToolTip": "NetServerComponent\\Impl\\TcpServer.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvysAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:15:33.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NetInterface.cs",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\NetServerComponent\\Base\\NetInterface.cs",
+              "RelativeDocumentMoniker": "NetServerComponent\\Base\\NetInterface.cs",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\NetServerComponent\\Base\\NetInterface.cs",
+              "RelativeToolTip": "NetServerComponent\\Base\\NetInterface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T15:14:57.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\NetServerComponent\\Program.cs",
+              "RelativeDocumentMoniker": "NetServerComponent\\Program.cs",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\NetServerComponent\\NetServerComponent\\Program.cs",
+              "RelativeToolTip": "NetServerComponent\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAQwBEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T14:59:31.219Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

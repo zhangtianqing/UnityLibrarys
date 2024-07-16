@@ -75,7 +75,8 @@
     <Reference Include="BaseUnityDll">
       <HintPath>..\BaseUnityDll\bin\release\x64\BaseUnityDll.dll</HintPath>
     </Reference>
-    <Reference Include="ConfigClass">
+    <Reference Include="ConfigClass, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>F:\Workspace\Unity\Cz_EggGame\bin\Cz_EggGame_Data\Managed\ConfigClass.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">

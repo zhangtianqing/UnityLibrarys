@@ -10,3 +10,4 @@ D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\obj\x64\Release\
 D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.csproj.CoreCompileInputs.cache
 D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.dll
 D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\obj\x64\Release\BaseUnityDll.pdb
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\BaseUnityDll\bin\release\x64\BaseUnityDll.xml

@@ -41,10 +41,20 @@ namespace Dll.UnityUtils
         {
             return BitConverter.GetBytes(num).Reverse().ToArray();
         }
+        /// <summary>
+        /// 大小端转换
+        /// </summary>
+        /// <param name="num"></param>
+        /// <returns></returns>
         public static byte[] GetBytes_Network(this double num)
         {
             return BitConverter.GetBytes(num).Reverse().ToArray();
         }
+        /// <summary>
+        /// UTF-8 编码
+        /// </summary>
+        /// <param name="value"></param>
+        /// <returns></returns>
         public static byte[] GetBytes_UTF8(this string value)
         {
             return Encoding.UTF8.GetBytes(value);
@@ -108,6 +118,12 @@ namespace Dll.UnityUtils
         {
             return Encoding.UTF8.GetString(value, 0, value.Length);
         }
+        /// <summary>
+        /// 判断字节是否按序相等
+        /// </summary>
+        /// <param name="value">源值</param>
+        /// <param name="check">检测值</param>
+        /// <returns></returns>
         public static bool ByteCheck(this byte[] value, byte[] check)
         {
             if (value == null || check == null || value.Length != check.Length)

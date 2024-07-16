@@ -15,3 +15,5 @@ D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\UnityUtils\obj\Release\UnityU
 D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\UnityUtils\obj\Release\UnityUtils.csproj.Up2Date
 D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\UnityUtils\obj\Release\UnityUtils.dll
 D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\UnityUtils\obj\Release\UnityUtils.pdb
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\UnityUtils\bin\realease\x64\UnityUtils.xml
+D:\Document\Documents\GitHub\UnityLibrarys\Dll.sln\UnityUtils\bin\realease\x64\BaseUnityDll.xml

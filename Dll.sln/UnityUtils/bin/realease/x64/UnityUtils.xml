@@ -1,0 +1,723 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UnityUtils</name>
+    </assembly>
+    <members>
+        <member name="T:Dll.UnityUtils.BitConverterExtend">
+            <summary>
+            对BitConverter进行方法扩展
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.BitConverterExtend.GetBytes_Network(System.Int16)">
+            <summary>
+            得到数值的网络字节序（大端模式）的字节数组
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.BitConverterExtend.ToInt16_ByNetworkBytes(System.Byte[],System.Int32)">
+            <summary>
+            将网络字节序（大端模式）的字节数组转成本地字节序（小端模式）的数值
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.BitConverterExtend.CopyAndReverse(System.Byte[],System.Int32,System.Int32)">
+            <summary>
+            拷贝反转
+            </summary>
+        </member>
+        <member name="T:Dll.UnityUtils.Hareware.SerialPortUtility">
+            <summary>
+            串口 公共资源类
+            </summary>
+        </member>
+        <member name="P:Dll.UnityUtils.Hareware.SerialPortUtility.IsOpen">
+            <summary>
+            串口是否已打开
+            </summary>
+        </member>
+        <member name="F:Dll.UnityUtils.Hareware.SerialPortUtility.mySerialPort">
+            <summary>
+            初始化 串行端口资源
+            </summary>
+        </member>
+        <member name="F:Dll.UnityUtils.Hareware.SerialPortUtility.pSerialPortRecv">
+            <summary>
+            串口接收数据 位置
+            </summary>
+        </member>
+        <member name="F:Dll.UnityUtils.Hareware.SerialPortUtility.byteLength">
+            <summary>
+            缓存区大小的长度
+            缓冲区可调大
+            （接收数据处理定时器 内接收数据量 小于下面设置的值即可）
+            </summary>
+        </member>
+        <member name="F:Dll.UnityUtils.Hareware.SerialPortUtility.byteSerialPortRecv">
+            <summary>
+            串口接收字节 缓存区大小
+            </summary>
+        </member>
+        <member name="F:Dll.UnityUtils.Hareware.SerialPortUtility.SerialPortRecvTimer">
+            <summary>
+            串口 接收数据处理定时器
+            </summary>
+        </member>
+        <member name="E:Dll.UnityUtils.Hareware.SerialPortUtility.ReceivedDataEvent">
+            <summary>
+            广播 收到的数据 事件
+            </summary>
+        </member>
+        <member name="T:Dll.UnityUtils.Hareware.SerialPortUtility.SerialPortRecvEventArgs">
+            <summary>
+            广播 收到的数据
+            </summary>
+        </member>
+        <member name="F:Dll.UnityUtils.Hareware.SerialPortUtility.SerialPortRecvEventArgs.RecvData">
+            <summary>
+            广播 收到的串口数据
+            </summary>
+        </member>
+        <member name="F:Dll.UnityUtils.Hareware.SerialPortUtility.SerialPortRecvEventArgs.RecvDataLength">
+            <summary>
+            收到数据 的 长度
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.SerialPortUtility.SerialPortRecvEventArgs.#ctor(System.Byte[],System.Int32)">
+            <summary>
+            将 收到的数据 转化成 待广播的数据
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.SerialPortUtility.#ctor">
+            <summary>
+            初始化
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.SerialPortUtility.SetSerialPortConfig(System.String,System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            设置 串口配置
+            </summary>
+            <param name="portName">串口号</param>
+            <param name="baudRate">波特率</param>
+            <param name="parity">校验位</param>
+            <param name="dataBits">数据位</param>
+            <param name="stopBits">停止位</param>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.SerialPortUtility.OpenSerialPort(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            打开串口
+            </summary>
+            <param name="portName">串口号</param>
+            <param name="baudRate">波特率</param>
+            <param name="dataBits">数据位</param>
+            <param name="parity">校验位</param>
+            <param name="stopBits">停止位</param>
+            <returns>是否成功打开</returns>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.SerialPortUtility.CloseSerialPort">
+            <summary>
+            关闭串口
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.SerialPortUtility.SendData(System.Byte[])">
+            <summary>
+            串口数据发送
+            </summary>
+            <param name="content">byte类型数据</param>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.SerialPortUtility.SendData(System.String,System.Text.Encoding)">
+            <summary>
+            串口数据发送
+            </summary>
+            <param name="strContent">字符串数据</param>
+            <param name="encoding">编码规则</param>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.SerialPortUtility.SPRecvTimer_Tick(System.Object,System.EventArgs)">
+            <summary>
+            数据处理定时器
+            定时检查缓冲区是否有数据，如果有数据则将数据处理并广播。
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.SerialPortUtility.DataReceived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)">
+            <summary>
+            数据接收事件
+            串口收到数据后，关闭定时器，将收到的数据填入缓冲区，数据填入完毕后，开启定时器，等待下一次数据接收
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.SerialPortUtility.GetPortList">
+            <summary>
+            获取当前可用PortName
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.SerialPortUtility.SetBaudRateValues">
+            <summary>
+            设置波特率
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Dll.UnityUtils.Hareware.SPParameterClass`1">
+            <summary>
+            串口参数类
+            </summary>
+            <typeparam name="T">value选择需要使用的值</typeparam>
+        </member>
+        <member name="F:Dll.UnityUtils.Hareware.SPParameterClass`1.name">
+            <summary>
+            显示值
+            </summary>
+        </member>
+        <member name="P:Dll.UnityUtils.Hareware.SPParameterClass`1.Name">
+            <summary>
+            显示值
+            </summary>
+        </member>
+        <member name="F:Dll.UnityUtils.Hareware.SPParameterClass`1.value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="P:Dll.UnityUtils.Hareware.SPParameterClass`1.Value">
+            <summary>
+            值
+            </summary>
+        </member>
+        <member name="T:Dll.UnityUtils.Hareware.SerialPortBaudRates">
+            <summary>
+            串口波特率列表。
+            75,110,150,300,600,1200,2400,4800,9600,14400,19200,28800,38400,56000,57600,
+            115200,128000,230400,256000
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.USBUtil.ComPortNamesByRegedit(System.String,System.String)">
+            <summary>
+            Get SerialPort Name By vid and pid
+            Only Win10 Test
+            Default ArduinoUno Vid 2341 Pid 0043
+            Default Ch340   Vid 1A86 Pid 7523
+            </summary>
+            <param name="VID">Serial USB VID</param>
+            <param name="PID">Serial USB PID</param>
+            <returns></returns>
+        </member>
+        <member name="P:Dll.UnityUtils.Hareware.USBUtil.AllUsbDevices">
+            <summary>
+            获取所有的USB设备实体（过滤没有VID和PID的设备）
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.USBUtil.WhoUsbDevice(System.UInt16,System.UInt16,System.Guid)">
+            <summary>
+            查询USB设备实体（设备要求有VID和PID）
+            </summary>
+            <param name="VendorID">供应商标识，MinValue忽视</param>
+            <param name="ProductID">产品编号，MinValue忽视</param>
+            <param name="ClassGuid">设备安装类Guid，Empty忽视</param>
+            <returns>设备列表</returns>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.USBUtil.WhoUsbDevice(System.UInt16,System.UInt16)">
+            <summary>
+            查询USB设备实体（设备要求有VID和PID）
+            </summary>
+            <param name="VendorID">供应商标识，MinValue忽视</param>
+            <param name="ProductID">产品编号，MinValue忽视</param>
+            <returns>设备列表</returns>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.USBUtil.WhoUsbDevice(System.Guid)">
+            <summary>
+            查询USB设备实体（设备要求有VID和PID）
+            </summary>
+            <param name="ClassGuid">设备安装类Guid，Empty忽视</param>
+            <returns>设备列表</returns>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.USBUtil.WhoUsbDevice(System.String)">
+            <summary>
+            查询USB设备实体（设备要求有VID和PID）
+            </summary>
+            <param name="PNPDeviceID">设备ID，可以是不完整信息</param>
+            <returns>设备列表</returns>        
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.USBUtil.WhoUsbDevice(System.String[])">
+            <summary>
+            根据服务定位USB设备
+            </summary>
+            <param name="ServiceCollection">要查询的服务集合</param>
+            <returns>设备列表</returns>
+        </member>
+        <member name="P:Dll.UnityUtils.Hareware.USBUtil.AllPnPEntities">
+            <summary>
+            所有即插即用设备实体（过滤没有VID和PID的设备）
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.USBUtil.WhoPnPEntity(System.UInt16,System.UInt16,System.Guid)">
+            <summary>
+            根据VID和PID及设备安装类GUID定位即插即用设备实体
+            </summary>
+            <param name="VendorID">供应商标识，MinValue忽视</param>
+            <param name="ProductID">产品编号，MinValue忽视</param>
+            <param name="ClassGuid">设备安装类Guid，Empty忽视</param>
+            <returns>设备列表</returns>
+            <remarks>
+            HID：{745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+            Imaging Device：{6bdd1fc6-810f-11d0-bec7-08002be2092f}
+            Keyboard：{4d36e96b-e325-11ce-bfc1-08002be10318} 
+            Mouse：{4d36e96f-e325-11ce-bfc1-08002be10318}
+            Network Adapter：{4d36e972-e325-11ce-bfc1-08002be10318}
+            USB：{36fc9e60-c465-11cf-8056-444553540000}
+            </remarks>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.USBUtil.WhoPnPEntity(System.UInt16,System.UInt16)">
+            <summary>
+            根据VID和PID定位即插即用设备实体
+            </summary>
+            <param name="VendorID">供应商标识，MinValue忽视</param>
+            <param name="ProductID">产品编号，MinValue忽视</param>
+            <returns>设备列表</returns>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.USBUtil.WhoPnPEntity(System.Guid)">
+            <summary>
+            根据设备安装类GUID定位即插即用设备实体
+            </summary>
+            <param name="ClassGuid">设备安装类Guid，Empty忽视</param>
+            <returns>设备列表</returns>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.USBUtil.WhoPnPEntity(System.String)">
+            <summary>
+            根据设备ID定位设备
+            </summary>
+            <param name="PNPDeviceID">设备ID，可以是不完整信息</param>
+            <returns>设备列表</returns>
+            <remarks>
+            注意：对于下划线，需要写成“[_]”，否则视为任意字符
+            </remarks>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.USBUtil.WhoPnPEntity(System.String[])">
+            <summary>
+            根据服务定位设备
+            </summary>
+            <param name="ServiceCollection">要查询的服务集合，null忽视</param>
+            <returns>设备列表</returns>
+            <remarks>
+            跟服务相关的类：
+                Win32_SystemDriverPNPEntity
+                Win32_SystemDriver
+            </remarks>
+        </member>
+        <member name="T:Dll.UnityUtils.Hareware.USBUtil.PnPEntityInfo">
+            <summary>
+            即插即用设备信息结构
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.LocalNetworkUtil.GetBroadcast(System.Net.IPAddress,System.Net.IPAddress)">
+            <summary> 
+            获得广播地址 
+            </summary> 
+            <param name="ipAddress">IP地址</param> 
+            <param name="subnetMask">子网掩码</param> 
+            <returns>广播地址</returns> 
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.LocalNetworkUtil.GetSubnetMask(System.Net.IPAddress)">
+            <summary>
+            获取子网掩码
+            </summary>
+            <param name="ipAdd">IP地址</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.Hareware.LocalNetworkUtil.GetMac(System.Net.NetworkInformation.NetworkInterfaceType,System.Byte[],System.Boolean,System.Net.NetworkInformation.OperationalStatus)">
+            <summary>
+            根据mac地址、网络类型、连接状态判断是否有激活的适配器存在
+            </summary>
+            <param name="networkInterfaceType"></param>
+            <param name="mac"></param>
+            <param name="operationalStatus"></param>
+            <returns>存在返回，不存在为空</returns>
+        </member>
+        <member name="T:Dll.UnityUtils.MathUtils">
+            <summary>
+            数据转换工具类
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.MathUtils.InRange(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+            <summary>
+            范围判断-三维
+            </summary>
+            <param name="input"></param>
+            <param name="min"></param>
+            <param name="max"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.MathUtils.InRange(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)">
+            <summary>
+            范围判断-二维
+            </summary>
+            <param name="input"></param>
+            <param name="min"></param>
+            <param name="max"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.MathUtils.InRange(System.Single,System.Single,System.Single,System.Boolean)">
+            <summary>
+            范围判断-一维
+            </summary>
+            <param name="input"></param>
+            <param name="minValue"></param>
+            <param name="maxValue"></param>
+            <param name="whenMinGreaterMax"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.MathUtils.ReMap(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)">
+            <summary>
+            三维向量重映射
+            </summary>
+            <param name="input">输入值</param>
+            <param name="minInput">输入最小值</param>
+            <param name="maxInput">输入最大值</param>
+            <param name="minOutput">输出最小值</param>
+            <param name="maxOutput">输出最大值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.MathUtils.ReMap(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)">
+            <summary>
+            二维向量重映射
+            </summary>
+            <param name="input">输入值</param>
+            <param name="minInput">输入最小值</param>
+            <param name="maxInput">输入最大值</param>
+            <param name="minOutput">输出最小值</param>
+            <param name="maxOutput">输出最大值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.MathUtils.ReMap(System.Single,System.Single,System.Single,System.Single,System.Single,System.Boolean)">
+            <summary>
+            数值重映射
+            </summary>
+            <param name="value">输入值</param>
+            <param name="inputMin">输入最小值</param>
+            <param name="inputMax">输入最大值</param>
+            <param name="outputMin">输出最小值</param>
+            <param name="outputMax">输出最大值</param>
+            <param name="InRange">限制输出值在输出区间</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.MathUtils.ReMap(System.Single,System.Single,System.Single,System.Boolean)">
+            <summary>
+            重映射 默认输入范围为0-1
+            </summary>
+            <param name="value">输入值</param>
+            <param name="outputMin">输出最小值</param>
+            <param name="outputMax">输出最大值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.MathUtils.Eq(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)">
+            <summary>
+            判断相等
+            </summary>
+            <param name="vector1"></param>
+            <param name="vector2"></param>
+            <param name="threshold"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.MathUtils.GetWorldPos(UnityEngine.Camera,UnityEngine.Vector2,System.Single)">
+            <summary>
+            屏幕坐标转世界坐标
+            </summary>
+            <param name="screenPos">2D屏幕位置</param>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.NetExtend.CheckNet(System.Action{System.Boolean,System.String},System.Boolean)">
+            <summary>
+            检测网络链接
+            </summary>
+            <param name="checkEvent">结果回调</param>
+            <param name="alaway">是否一直执行</param>
+        </member>
+        <member name="T:Dll.UnityUtils.ProbabilityGenerator`1">
+            <summary>
+            概率生成器
+            </summary>
+        </member>
+        <member name="M:Dll.UnityUtils.ReflectUtil.GetSubClassNames(System.Type)">
+            <summary>
+            C#获取一个接口在所在的程序集中的所有子类类型的名称
+            </summary>
+            <param name="interfaceMethod">给定的类型</param>
+            <returns>所有子类类型的名称</returns>
+        </member>
+        <member name="M:Dll.UnityUtils.ReflectUtil.GetFieldInfoValue(System.Object,System.Boolean,System.Boolean,System.Reflection.BindingFlags)">
+            <summary>
+            获取对象字段和属性，默认不获取属性
+            </summary>
+            <param name="obj">对象</param>
+            <param name="getField">是否获取字段 默认获取</param>
+            <param name="getProperties">是否获取属性 默认不获取</param>
+            <param name="bindingFlags">通用匹配类型 https://blog.csdn.net/weixin_56814032/article/details/127134310 </param>
+            <returns>字段名称与对应的值</returns>
+        </member>
+        <member name="M:Dll.UnityUtils.ReflectUtil.GetSubClassTypesByInterface(System.Type)">
+            <summary>
+            C#获取一个接口在所在的程序集中的所有子类
+            </summary>
+            <param name="parentType">接口</param>
+            <returns>所有子类的名称</returns>
+        </member>
+        <member name="M:Dll.UnityUtils.ReflectUtil.GetSubClassTypeByAttribute(System.Type)">
+            <summary>
+            获取对应注解所在的程序集中的所有 注解了对应类的类型
+            </summary>
+            <param name="Attribute"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.StringExtend.FilterFileName(System.String,System.String)">
+            <summary>
+            剔除字符串中不合法的文件名
+            </summary>
+            <param name="strFileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Dll.UnityUtils.StringExtend.FilterDirectoryPath(System.String,System.String)">
+            <summary>
+            剔除字符串中不合法的文件路径字符
+            </summary>
+            <param name="rPath"></param>
+            <param name="replaceStr"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Dll.UnityUtils.UnityTimer.TimerManager">
+            <summary>
+            Manages updating all the <see cref="T:UnityTimer"/>s that are running in the application.
+            This will be instantiated the first time you create a timer -- you do not need to add it into the
+            scene manually.
+            </summary>
+        </member>
+        <member name="T:DateTimeUtil">
+            <summary>
+            时间工具类
+            </summary>
+        </member>
+        <member name="F:DateTimeUtil.timeStampStartTime">
+            <summary>
+            时间戳计时开始时间
+            </summary>
+        </member>
+        <member name="M:DateTimeUtil.ToTimeStamp(System.DateTime)">
+            <summary>
+            DateTime转换为10位时间戳（单位：秒）
+            </summary>
+            <param name="dateTime"> DateTime</param>
+            <returns>10位时间戳（单位：秒）</returns>
+        </member>
+        <member name="M:DateTimeUtil.ToLongTimeStamp(System.DateTime)">
+            <summary>
+            DateTime转换为13位时间戳（单位：毫秒）
+            </summary>
+            <param name="dateTime"> DateTime</param>
+            <returns>13位时间戳（单位：毫秒）</returns>
+        </member>
+        <member name="M:DateTimeUtil.TimeStampToDateTime(System.Int64)">
+            <summary>
+            10位时间戳（单位：秒）转换为DateTime
+            </summary>
+            <param name="timeStamp">10位时间戳（单位：秒）</param>
+            <returns>DateTime</returns>
+        </member>
+        <member name="M:DateTimeUtil.LongTimeStampToDateTime(System.Int64)">
+            <summary>
+            13位时间戳（单位：毫秒）转换为DateTime
+            </summary>
+            <param name="longTimeStamp">13位时间戳（单位：毫秒）</param>
+            <returns>DateTime</returns>
+        </member>
+        <member name="T:MonoController">
+            <summary>
+            公共Mono模块
+            作用：让没有继承mono的类可以开启协程进行update真更新
+            Mono的管理者
+            类中的构造函数在被new的时候可以进行执行
+            </summary>
+        </member>
+        <member name="M:PlayFrame.ToVisible">
+            <summary>
+            改进-播放显示，不播放隐藏
+            </summary>
+        </member>
+        <member name="M:PlayFrame.Play">
+            <summary>
+            播放
+            </summary>
+        </member>
+        <member name="M:PlayFrame.Pause">
+            <summary>
+            暂停
+            </summary>
+        </member>
+        <member name="M:PlayFrame.Stop">
+            <summary>
+            停止
+            </summary>
+        </member>
+        <member name="M:PlayFrame.Replay">
+            <summary>
+            重播
+            </summary>
+        </member>
+        <member name="M:UnityUtils.RandomUtils.Swap``1(``0[],System.Int32,System.Int32)">
+            <summary>
+            数组的2个元素位置调换
+            </summary>
+        </member>
+        <member name="M:UnityUtils.RandomUtils.Swap``1(System.Collections.Generic.List{``0},System.Int32,System.Int32)">
+            <summary>
+            列表的2个元素位置调换
+            </summary>
+        </member>
+        <member name="M:UnityUtils.RandomUtils.SortRandom``1(``0[])">
+            <summary>
+            乱序排序数组
+            </summary>
+        </member>
+        <member name="M:UnityUtils.RandomUtils.SortRandom``1(System.Collections.Generic.List{``0})">
+            <summary>
+            乱序排序列表
+            </summary>
+        </member>
+        <member name="P:UnityTimer.duration">
+            <summary>
+            How long the timer takes to complete from start to finish.
+            </summary>
+        </member>
+        <member name="P:UnityTimer.isLooped">
+            <summary>
+            Whether the timer will run again after completion.
+            </summary>
+        </member>
+        <member name="P:UnityTimer.isCompleted">
+            <summary>
+            Whether or not the timer completed running. This is false if the timer was cancelled.
+            </summary>
+        </member>
+        <member name="P:UnityTimer.usesRealTime">
+            <summary>
+            Whether the timer uses real-time or game-time. Real time is unaffected by changes to the timescale
+            of the game(e.g. pausing, slow-mo), while game time is affected.
+            </summary>
+        </member>
+        <member name="P:UnityTimer.isPaused">
+            <summary>
+            Whether the timer is currently paused.
+            </summary>
+        </member>
+        <member name="P:UnityTimer.isCancelled">
+            <summary>
+            Whether or not the timer was cancelled.
+            </summary>
+        </member>
+        <member name="P:UnityTimer.isDone">
+            <summary>
+            Get whether or not the timer has finished running for any reason.
+            </summary>
+        </member>
+        <member name="M:UnityTimer.Register(System.Single,System.Action,System.Action{System.Single},System.Boolean,System.Boolean,UnityEngine.MonoBehaviour)">
+             <summary>
+             Register a new timer that should fire an event after a certain amount of time
+             has elapsed.
+            
+             Registered timers are destroyed when the scene changes.
+             </summary>
+             <param name="duration">The time to wait before the timer should fire, in seconds.</param>
+             <param name="onComplete">An action to fire when the timer completes.</param>
+             <param name="onUpdate">An action that should fire each time the timer is updated. Takes the amount
+             of time passed in seconds since the start of the timer's current loop.</param>
+             <param name="isLooped">Whether the timer should repeat after executing.</param>
+             <param name="useRealTime">Whether the timer uses real-time(i.e. not affected by pauses,
+             slow/fast motion) or game-time(will be affected by pauses and slow/fast-motion).</param>
+             <param name="autoDestroyOwner">An object to attach this timer to. After the object is destroyed,
+             the timer will expire and not execute. This allows you to avoid annoying <see cref="T:System.NullReferenceException"/>s
+             by preventing the timer from running and accessessing its parents' components
+             after the parent has been destroyed.</param>
+             <returns>A timer object that allows you to examine stats and stop/resume progress.</returns>
+        </member>
+        <member name="M:UnityTimer.Cancel(UnityTimer)">
+            <summary>
+            Cancels a timer. The main benefit of this over the method on the instance is that you will not get
+            a <see cref="T:System.NullReferenceException"/> if the timer is null.
+            </summary>
+            <param name="timer">The timer to cancel.</param>
+        </member>
+        <member name="M:UnityTimer.Pause(UnityTimer)">
+            <summary>
+            Pause a timer. The main benefit of this over the method on the instance is that you will not get
+            a <see cref="T:System.NullReferenceException"/> if the timer is null.
+            </summary>
+            <param name="timer">The timer to pause.</param>
+        </member>
+        <member name="M:UnityTimer.Resume(UnityTimer)">
+            <summary>
+            Resume a timer. The main benefit of this over the method on the instance is that you will not get
+            a <see cref="T:System.NullReferenceException"/> if the timer is null.
+            </summary>
+            <param name="timer">The timer to resume.</param>
+        </member>
+        <member name="M:UnityTimer.Cancel">
+            <summary>
+            Stop a timer that is in-progress or paused. The timer's on completion callback will not be called.
+            </summary>
+        </member>
+        <member name="M:UnityTimer.Pause">
+            <summary>
+            Pause a running timer. A paused timer can be resumed from the same point it was paused.
+            </summary>
+        </member>
+        <member name="M:UnityTimer.Resume">
+            <summary>
+            Continue a paused timer. Does nothing if the timer has not been paused.
+            </summary>
+        </member>
+        <member name="M:UnityTimer.GetTimeElapsed">
+             <summary>
+             Get how many seconds have elapsed since the start of this timer's current cycle.
+             </summary>
+             <returns>The number of seconds that have elapsed since the start of this timer's current cycle, i.e.
+             the current loop if the timer is looped, or the start if it isn't.
+            
+             If the timer has finished running, this is equal to the duration.
+            
+             If the timer was cancelled/paused, this is equal to the number of seconds that passed between the timer
+             starting and when it was cancelled/paused.</returns>
+        </member>
+        <member name="M:UnityTimer.GetTimeRemaining">
+            <summary>
+            Get how many seconds remain before the timer completes.
+            </summary>
+            <returns>The number of seconds that remain to be elapsed until the timer is completed. A timer
+            is only elapsing time if it is not paused, cancelled, or completed. This will be equal to zero
+            if the timer completed.</returns>
+        </member>
+        <member name="M:UnityTimer.GetRatioComplete">
+            <summary>
+            Get how much progress the timer has made from start to finish as a ratio.
+            </summary>
+            <returns>A value from 0 to 1 indicating how much of the timer's duration has been elapsed.</returns>
+        </member>
+        <member name="M:UnityTimer.GetRatioRemaining">
+            <summary>
+            Get how much progress the timer has left to make as a ratio.
+            </summary>
+            <returns>A value from 0 to 1 indicating how much of the timer's duration remains to be elapsed.</returns>
+        </member>
+        <member name="M:TimerExtensions.AttachTimer(UnityEngine.MonoBehaviour,System.Single,System.Action,System.Action{System.Single},System.Boolean,System.Boolean)">
+            <summary>
+            Attach a timer on to the behaviour. If the behaviour is destroyed before the timer is completed,
+            e.g. through a scene change, the timer callback will not execute.
+            </summary>
+            <param name="behaviour">The behaviour to attach this timer to.</param>
+            <param name="duration">The duration to wait before the timer fires.</param>
+            <param name="onComplete">The action to run when the timer elapses.</param>
+            <param name="onUpdate">A function to call each tick of the timer. Takes the number of seconds elapsed since
+            the start of the current cycle.</param>
+            <param name="isLooped">Whether the timer should restart after executing.</param>
+            <param name="useRealTime">Whether the timer uses real-time(not affected by slow-mo or pausing) or
+            game-time(affected by time scale changes).</param>
+        </member>
+    </members>
+</doc>

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-public class ClassSingleton<T> where T : ClassSingleton<T>, new()
+﻿public class ClassSingleton<T> where T : ClassSingleton<T>, new()
 {
     private static T _instance;
     private static object o = new object();

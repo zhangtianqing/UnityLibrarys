@@ -169,7 +169,7 @@ namespace Dll.UnityUtils.Hareware
         /// <param name="parity">校验位</param>
         /// <param name="stopBits">停止位</param>
         /// <returns>是否成功打开</returns>
-        public bool OpenSerialPort(string portName, int baudRate, int dataBits, int parity, int stopBits, bool autoConnection = false)
+        public bool OpenSerialPort(string portName, int baudRate, int dataBits, int parity, int stopBits)
         {
             try
             {

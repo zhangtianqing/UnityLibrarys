@@ -69,14 +69,17 @@ namespace Dll.UnityUtils.Hareware
         //return IPAddress.Parse("255.255.255.0");
         throw new ArgumentException($"没有发现该{ipAdd}对应的子网掩码");
     }
-    /// <summary>
-    /// 根据mac地址、网络类型、连接状态判断是否有激活的适配器存在
-    /// </summary>
-    /// <param name="networkInterfaceType"></param>
-    /// <param name="mac"></param>
-    /// <param name="operationalStatus"></param>
-    /// <returns>存在返回，不存在为空</returns>
-    public static NetworkInterface GetMac(NetworkInterfaceType networkInterfaceType, byte[] mac, bool checkMac, OperationalStatus operationalStatus = OperationalStatus.Up)
+
+
+        /// <summary>
+        /// 根据mac地址、网络类型、连接状态判断是否有激活的适配器存在
+        /// </summary>
+        /// <param name="networkInterfaceType">指定网络接口的类型</param>
+        /// <param name="mac">mac地址</param>
+        /// <param name="checkMac">是否需要匹配mac地址</param>
+        /// <param name="operationalStatus">指定网络接口需要处在的状态</param>
+        /// <returns>存在返回，不存在为空</returns>
+        public static NetworkInterface GetMac(NetworkInterfaceType networkInterfaceType, byte[] mac, bool checkMac, OperationalStatus operationalStatus = OperationalStatus.Up)
     {
         var interfaces = NetworkInterface.GetAllNetworkInterfaces();
         foreach (var iface in interfaces)

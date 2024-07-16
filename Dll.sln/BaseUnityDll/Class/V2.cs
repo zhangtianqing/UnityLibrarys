@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+namespace BaseUnityDll.Class { 
 [Serializable]
 public class V2
 {
@@ -37,4 +38,5 @@ public class V2
     {
         return new Vector3() { x = (float)Math.Round(x, bit), y = (float)Math.Round(y, bit), z = 0 };
     }
+}
 }

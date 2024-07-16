@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BaseUnityDll</name>
+    </assembly>
+    <members>
+        <member name="T:BaseUnityDll.BaseClass.BaseOdds`1">
+            <summary>
+            [0-60),1|[60-80),1.5|[90-100),2|[100-End),2.5
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:BaseUnityDll.BaseClass.SimpleBaseFSM`1.stateChange">
+            <summary>
+            CurrentState TargetState
+            </summary>
+        </member>
+        <member name="M:BaseUnityDll.BaseClass.SimpleBaseFSM`1.GetStateChangedEvent(`0)">
+            <summary>
+            获取当前枚举的状态是否存在
+            </summary>
+            <param name="t"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BaseUnityDll.BaseClass.SimpleBaseFSM`1.Find(System.String)">
+            <summary>
+            根据方法名找到当前类的方法
+            </summary>
+            <param name="methodName">State_Method</param>
+        </member>
+        <member name="M:BaseUnityDll.BaseClass.DataInput.MsgHandler.Awake">
+            <summary>
+            寻找通用输入源帮绑定事件
+            </summary>
+        </member>
+        <member name="M:BaseUnityDll.BaseClass.DataInput.MsgHandler.MessageHandle(System.Object[])">
+            <summary>
+            第一个参数为发送源头,可以为空
+            </summary>
+        </member>
+        <member name="T:BaseUnityDll.BaseClass.DataInput.MessageHandler">
+            <summary>
+            第一个为发送方源信息，后面为数据
+            </summary>
+            <param name="objects"></param>
+        </member>
+        <member name="T:BaseUnityDll.BaseClass.DataInput.MsgInput">
+            <summary>
+            消息输入
+            </summary>
+        </member>
+        <member name="F:BaseUnityDll.BaseClass.DataInput.MsgInput.MessageArrived">
+            <summary>
+            第一个参数为发送源头,可以为空
+            </summary>
+        </member>
+        <member name="T:BaseUnityDll.Class.BaseParmAlll.BaseParm">
+            <summary>
+            约定 至少传入两个参数，先一个为入参数，后一个为出参数
+            </summary>
+        </member>
+        <member name="F:ClassSingleton`1.ScriptInit">
+            <summary>
+            脚本初始化 标识
+            </summary>
+        </member>
+        <member name="M:ClassSingleton`1.InitHandler">
+            <summary>
+            此处通过状态标识来决定时否要初始化
+            </summary>
+        </member>
+        <member name="M:ClassSingleton`1.Init">
+            <summary>
+            留给子类重写的初始化方法
+            </summary>
+        </member>
+        <member name="T:MonoSingleton`1">
+            <summary>
+            Unity Mono脚本 单例泛型实例化
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="F:MonoSingleton`1._instance">
+            <summary>
+            持有的单例对象
+            </summary>
+        </member>
+        <member name="F:MonoSingleton`1.o">
+            <summary>
+            实例化锁
+            </summary>
+        </member>
+        <member name="F:MonoSingleton`1.ScriptInit">
+            <summary>
+            脚本初始化 标识
+            </summary>
+        </member>
+        <member name="P:MonoSingleton`1.Instance">
+            <summary>
+            单例对象获取
+            </summary>
+        </member>
+        <member name="M:MonoSingleton`1.InitHandler">
+            <summary>
+            此处通过状态标识来决定时否要初始化
+            </summary>
+        </member>
+        <member name="M:MonoSingleton`1.OnInstace">
+            <summary>
+            留给子类重写的初始化方法
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -3,40 +3,63 @@
   "WorkspaceRootPath": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\universalextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:universalextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\monocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:monocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\bitconverterextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:bitconverterextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\android\\androidpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:android\\androidpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\stringextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:stringextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\screenshotutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:screenshotutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\mathutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:mathutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\hareware\\localnetworkutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:hareware\\localnetworkutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\hareware\\serialportutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:hareware\\serialportutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\unityutils\\platformutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:platformutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|UnityUtils||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\reflectutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:reflectutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\unityutils\\randomutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:randomutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\universalextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:universalextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\playframeasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:playframeasync.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\randomutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:randomutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\screenshotutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:screenshotutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\perlinnoise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:perlinnoise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\monocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:monocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\mathutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:mathutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\loom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,11 +74,7 @@
       "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:datetimeutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\bitconverterextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:bitconverterextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\unityutils\\unitytimer\\unitytimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\unitytimer\\unitytimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:unitytimer\\unitytimer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -63,7 +82,7 @@
       "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:unitytimer\\timermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\unityutils\\unitytimer\\timerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\unitytimer\\timerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:unitytimer\\timerextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -75,20 +94,11 @@
       "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:hareware\\usbutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\hareware\\serialportutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:hareware\\serialportutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\hareware\\netextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:hareware\\netextend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\hareware\\localnetworkutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:hareware\\localnetworkutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\android\\androidpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|solutionrelative:android\\androidpermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71FF1BCE-BD50-46AE-84FC-06E5585AC9B6}|UnityUtils.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\unityutils\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,11 +108,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 8,
+              "Title": "UnityUtils",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\UnityUtils.csproj",
+              "RelativeDocumentMoniker": "UnityUtils.csproj",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\UnityUtils.csproj",
+              "RelativeToolTip": "UnityUtils.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-16T03:10:29.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlatformUtil.cs",
+              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\PlatformUtil.cs",
+              "RelativeDocumentMoniker": "PlatformUtil.cs",
+              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\PlatformUtil.cs",
+              "RelativeToolTip": "PlatformUtil.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T06:37:34.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "TimerExtensions.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\UnityTimer\\TimerExtensions.cs",
               "RelativeDocumentMoniker": "UnityTimer\\TimerExtensions.cs",
@@ -110,25 +149,23 @@
               "RelativeToolTip": "UnityTimer\\TimerExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T03:32:37.479Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T03:32:37.479Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "RandomUtils.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\RandomUtils.cs",
               "RelativeDocumentMoniker": "RandomUtils.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\RandomUtils.cs",
               "RelativeToolTip": "RandomUtils.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAANAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:43.57Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:43.57Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "Loom.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\Loom.cs",
               "RelativeDocumentMoniker": "Loom.cs",
@@ -136,12 +173,11 @@
               "RelativeToolTip": "Loom.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:27.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:27.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "PerlinNoise.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\PerlinNoise.cs",
               "RelativeDocumentMoniker": "PerlinNoise.cs",
@@ -149,64 +185,63 @@
               "RelativeToolTip": "PerlinNoise.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:27.455Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:27.455Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "ReflectUtil.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\ReflectUtil.cs",
               "RelativeDocumentMoniker": "ReflectUtil.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\ReflectUtil.cs",
               "RelativeToolTip": "ReflectUtil.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T08:02:27.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "MonoController.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\MonoController.cs",
               "RelativeDocumentMoniker": "MonoController.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\MonoController.cs",
               "RelativeToolTip": "MonoController.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAUwCQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T08:02:27.456Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "MathUtils.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\MathUtils.cs",
               "RelativeDocumentMoniker": "MathUtils.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\MathUtils.cs",
               "RelativeToolTip": "MathUtils.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAYwHsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T08:02:27.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 2,
               "Title": "AndroidPermission.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\Android\\AndroidPermission.cs",
               "RelativeDocumentMoniker": "Android\\AndroidPermission.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\Android\\AndroidPermission.cs",
               "RelativeToolTip": "Android\\AndroidPermission.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T08:02:27.458Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "USBUtil.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\Hareware\\USBUtil.cs",
               "RelativeDocumentMoniker": "Hareware\\USBUtil.cs",
@@ -214,12 +249,11 @@
               "RelativeToolTip": "Hareware\\USBUtil.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAPwAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:27.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:27.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "ScreenShotUtil.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\ScreenShotUtil.cs",
               "RelativeDocumentMoniker": "ScreenShotUtil.cs",
@@ -227,38 +261,35 @@
               "RelativeToolTip": "ScreenShotUtil.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAAAAYAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:27.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:27.459Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 10,
               "Title": "UniversalExtend.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\UniversalExtend.cs",
               "RelativeDocumentMoniker": "UniversalExtend.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\UniversalExtend.cs",
               "RelativeToolTip": "UniversalExtend.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:27.54Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:27.54Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "PlayFrameAsync.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\PlayFrameAsync.cs",
               "RelativeDocumentMoniker": "PlayFrameAsync.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\PlayFrameAsync.cs",
               "RelativeToolTip": "PlayFrameAsync.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAVAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAAAYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:27.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:27.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "DateTimeUtil.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\DateTimeUtil.cs",
               "RelativeDocumentMoniker": "DateTimeUtil.cs",
@@ -266,38 +297,37 @@
               "RelativeToolTip": "DateTimeUtil.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:27.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:27.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "BitConverterExtend.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\BitConverterExtend.cs",
               "RelativeDocumentMoniker": "BitConverterExtend.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\BitConverterExtend.cs",
               "RelativeToolTip": "BitConverterExtend.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC0AAAA/AAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAiwEYAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T08:02:27.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "StringExtend.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\StringExtend.cs",
               "RelativeDocumentMoniker": "StringExtend.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\StringExtend.cs",
               "RelativeToolTip": "StringExtend.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAwwAkAAAAWAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvxcAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T08:02:27.573Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "ProbabilityGenerator.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\ProbabilityGenerator\\ProbabilityGenerator.cs",
               "RelativeDocumentMoniker": "ProbabilityGenerator\\ProbabilityGenerator.cs",
@@ -305,12 +335,11 @@
               "RelativeToolTip": "ProbabilityGenerator\\ProbabilityGenerator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:27.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:27.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "NetExtend.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\Hareware\\NetExtend.cs",
               "RelativeDocumentMoniker": "Hareware\\NetExtend.cs",
@@ -318,25 +347,24 @@
               "RelativeToolTip": "Hareware\\NetExtend.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:27.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:27.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 5,
               "Title": "LocalNetworkUtil.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\Hareware\\LocalNetworkUtil.cs",
               "RelativeDocumentMoniker": "Hareware\\LocalNetworkUtil.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\Hareware\\LocalNetworkUtil.cs",
               "RelativeToolTip": "Hareware\\LocalNetworkUtil.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAcwE8AAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T08:02:27.574Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
               "Title": "DontDestoryOnLoad.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\DontDestoryOnLoad.cs",
               "RelativeDocumentMoniker": "DontDestoryOnLoad.cs",
@@ -344,12 +372,11 @@
               "RelativeToolTip": "DontDestoryOnLoad.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:27.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:27.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "UnityTimer.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\UnityTimer\\UnityTimer.cs",
               "RelativeDocumentMoniker": "UnityTimer\\UnityTimer.cs",
@@ -357,25 +384,24 @@
               "RelativeToolTip": "UnityTimer\\UnityTimer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:27.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:27.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 6,
               "Title": "SerialPortUtility.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\Hareware\\SerialPortUtility.cs",
               "RelativeDocumentMoniker": "Hareware\\SerialPortUtility.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\Hareware\\SerialPortUtility.cs",
               "RelativeToolTip": "Hareware\\SerialPortUtility.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAuwLAAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-20T08:02:27.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "TimerManager.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\UnityUtils\\UnityTimer\\TimerManager.cs",
               "RelativeDocumentMoniker": "UnityTimer\\TimerManager.cs",
@@ -383,8 +409,7 @@
               "RelativeToolTip": "UnityTimer\\TimerManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T08:02:27.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T08:02:27.576Z"
             }
           ]
         }

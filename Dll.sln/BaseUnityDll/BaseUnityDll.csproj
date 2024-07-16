@@ -50,6 +50,7 @@
     <PlatformTarget>x64</PlatformTarget>
     <LangVersion>7.3</LangVersion>
     <ErrorReport>prompt</ErrorReport>
+    <DocumentationFile>bin\release\x64\BaseUnityDll.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -86,22 +87,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseClass\BaseOdds.cs" />
-    <Compile Include="Attribute\PlantDir.cs" />
+    <Compile Include="Enums\PlantDir.cs" />
     <Compile Include="BaseClass\MonoBase.cs" />
     <Compile Include="BaseClass\SimpleBaseFSM.cs" />
     <Compile Include="Class\BaseParmAlll.cs" />
     <Compile Include="Class\StateChangedEvent.cs" />
+    <Compile Include="Class\TObject.cs" />
     <Compile Include="Class\V2.cs" />
     <Compile Include="Class\V3.cs" />
     <Compile Include="BaseClass\DataInput\MsgHandler.cs" />
     <Compile Include="BaseClass\DataInput\MsgInput.cs" />
-    <Compile Include="Attribute\EnumAnno.cs" />
+    <Compile Include="Attributes\EnumAnno.cs" />
     <Compile Include="Enums\CSWorkModel.cs" />
     <Compile Include="Enums\UnityPositionEnum.cs" />
+    <Compile Include="Enums\ValueType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Singleton\ClassSingleton.cs" />
     <Compile Include="Singleton\MonoSingleton.cs" />
-    <Compile Include="Attribute\ValueType.cs" />
+    <Compile Include="Attributes\ValueType.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Interface\" />

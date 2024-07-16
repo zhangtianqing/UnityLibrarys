@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace Script.Core.Frame
+namespace BaseUnityDll.BaseClass
 {
     public class MonoBase : MonoBehaviour
     {

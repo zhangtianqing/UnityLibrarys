@@ -1,6 +1,9 @@
 ﻿namespace BaseUnityDll.BaseClass
 {
-
+    /// <summary>
+    /// [0-60),1|[60-80),1.5|[90-100),2|[100-End),2.5
+    /// </summary>
+    /// <typeparam name="T"></typeparam>
     public abstract class BaseOdds<T>
     {
 
