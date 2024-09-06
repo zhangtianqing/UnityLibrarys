@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\baseunitydll\\baseclass\\simplebasefsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:baseclass\\simplebasefsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\baseclass\\baseodds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:baseclass\\baseodds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\baseclass\\datainput\\msginput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:baseclass\\datainput\\msginput.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|BaseUnityDll||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\baseunitydll\\baseclass\\simplebasefsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:baseclass\\simplebasefsm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\baseclass\\datainput\\msghandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -32,14 +36,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\enums\\valuetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:enums\\valuetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\baseclass\\baseodds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:baseclass\\baseodds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\baseclass\\monobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:baseclass\\monobase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\class\\baseparmalll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -72,9 +68,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\singleton\\monosingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|solutionrelative:singleton\\monosingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{14877889-3312-43E0-B3A4-83802B883B0E}|BaseUnityDll.csproj|d:\\document\\documents\\github\\unitylibrarys\\dll.sln\\baseunitydll\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|a54ad834-9219-4aa6-b589-607af21c3e26"
     }
   ],
   "DocumentGroupContainers": [
@@ -84,23 +77,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "BaseUnityDll",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseUnityDll.csproj",
               "RelativeDocumentMoniker": "BaseUnityDll.csproj",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseUnityDll.csproj",
               "RelativeToolTip": "BaseUnityDll.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-07-16T03:08:36.889Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-16T03:08:36.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ValueType.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Enums\\ValueType.cs",
               "RelativeDocumentMoniker": "Enums\\ValueType.cs",
@@ -112,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ValueType.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Attributes\\ValueType.cs",
               "RelativeDocumentMoniker": "Attributes\\ValueType.cs",
@@ -124,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MsgInput.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\DataInput\\MsgInput.cs",
               "RelativeDocumentMoniker": "BaseClass\\DataInput\\MsgInput.cs",
@@ -132,12 +124,11 @@
               "RelativeToolTip": "BaseClass\\DataInput\\MsgInput.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T06:59:14.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T06:59:14.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MsgHandler.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\DataInput\\MsgHandler.cs",
               "RelativeDocumentMoniker": "BaseClass\\DataInput\\MsgHandler.cs",
@@ -149,7 +140,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "StateChangedEvent.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Class\\StateChangedEvent.cs",
               "RelativeDocumentMoniker": "Class\\StateChangedEvent.cs",
@@ -161,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "CSWorkModel.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Enums\\CSWorkModel.cs",
               "RelativeDocumentMoniker": "Enums\\CSWorkModel.cs",
@@ -173,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "MonoSingleton.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Singleton\\MonoSingleton.cs",
               "RelativeDocumentMoniker": "Singleton\\MonoSingleton.cs",
@@ -185,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "ClassSingleton.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Singleton\\ClassSingleton.cs",
               "RelativeDocumentMoniker": "Singleton\\ClassSingleton.cs",
@@ -197,20 +188,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SimpleBaseFSM.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\SimpleBaseFSM.cs",
               "RelativeDocumentMoniker": "BaseClass\\SimpleBaseFSM.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\SimpleBaseFSM.cs",
               "RelativeToolTip": "BaseClass\\SimpleBaseFSM.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAArwCIAAABCAAAA",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAAAJYAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-01T06:41:06.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "PlantDir.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Enums\\PlantDir.cs",
               "RelativeDocumentMoniker": "Enums\\PlantDir.cs",
@@ -222,7 +213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EnumAnno.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Attributes\\EnumAnno.cs",
               "RelativeDocumentMoniker": "Attributes\\EnumAnno.cs",
@@ -234,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "V3.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Class\\V3.cs",
               "RelativeDocumentMoniker": "Class\\V3.cs",
@@ -246,7 +237,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "V2.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Class\\V2.cs",
               "RelativeDocumentMoniker": "Class\\V2.cs",
@@ -258,31 +249,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MonoBase.cs",
-              "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\MonoBase.cs",
-              "RelativeDocumentMoniker": "BaseClass\\MonoBase.cs",
-              "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\MonoBase.cs",
-              "RelativeToolTip": "BaseClass\\MonoBase.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T06:54:20.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "BaseOdds.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\BaseOdds.cs",
               "RelativeDocumentMoniker": "BaseClass\\BaseOdds.cs",
               "ToolTip": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\BaseClass\\BaseOdds.cs",
               "RelativeToolTip": "BaseClass\\BaseOdds.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAADwvw4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-02T06:53:17.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "TObject.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Class\\TObject.cs",
               "RelativeDocumentMoniker": "Class\\TObject.cs",
@@ -294,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "BaseParmAlll.cs",
               "DocumentMoniker": "D:\\Document\\Documents\\GitHub\\UnityLibrarys\\Dll.sln\\BaseUnityDll\\Class\\BaseParmAlll.cs",
               "RelativeDocumentMoniker": "Class\\BaseParmAlll.cs",

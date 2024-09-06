@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Reflection;
+using System.Text;
 using UnityEngine;
 using static BaseUnityDll.Class.BaseParmAlll;
 using static UnityEngine.CullingGroup;
@@ -132,5 +133,38 @@ namespace BaseUnityDll.BaseClass
             return this.GetType().GetMethod(methodName, BindingFlags.NonPublic | BindingFlags.Instance);
         }
 
+        protected void PrintStateMethodCode()
+        {
+            //Debug.Log($"{nameof(PrintStateMethodCode)}:Start");
+            string[] enums = Enum.GetNames(currentState.GetType());
+            //Debug.Log($"{nameof(PrintStateMethodCode)}:1:{enums.Length}");
+            string startFormatStr = "void {0}_{1}(BaseParm baseparm)";
+            string updateFormatStr = "void {0}_{1}()";
+            string updateDataFormatStr = "void {0}_{1}(BaseParm baseparm)";
+            string exitFormatStr = "void {0}_{1}(BaseParm baseparm)";
+
+            string contentFormatStr = "{" + Environment.NewLine + Environment.NewLine + "}" ;
+            StringBuilder stringBuilder = new StringBuilder();
+            //Debug.Log($"{nameof(PrintStateMethodCode)}:2");
+            foreach (var item in enums)
+            {
+                //Debug.Log($"{nameof(PrintStateMethodCode)}:{item}");
+                T t = (T)Enum.Parse(currentState.GetType(), item);
+                StateChangedEvent stateChangedEvent = stateCtrl[t];
+
+                stringBuilder.AppendLine(string.Format(startFormatStr, t.ToString(), nameof(stateChangedEvent.OnStart)));
+                stringBuilder.AppendLine(contentFormatStr);
+
+                stringBuilder.AppendLine(string.Format(updateFormatStr, t.ToString(), nameof(stateChangedEvent.OnUpdate)));
+                stringBuilder.AppendLine(contentFormatStr);
+
+                stringBuilder.AppendLine(string.Format(updateDataFormatStr, t.ToString(), nameof(stateChangedEvent.OnUpdateData)));
+                stringBuilder.AppendLine(contentFormatStr);
+
+                stringBuilder.AppendLine(string.Format(exitFormatStr, t.ToString(), nameof(stateChangedEvent.OnExit)));
+                stringBuilder.AppendLine(contentFormatStr);
+            }
+            Debug.Log($"{nameof(PrintStateMethodCode)}:{Environment.NewLine}{stringBuilder.ToString()}");
+        }
     }
 }

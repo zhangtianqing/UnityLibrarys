@@ -88,7 +88,6 @@
   <ItemGroup>
     <Compile Include="BaseClass\BaseOdds.cs" />
     <Compile Include="Enums\PlantDir.cs" />
-    <Compile Include="BaseClass\MonoBase.cs" />
     <Compile Include="BaseClass\SimpleBaseFSM.cs" />
     <Compile Include="Class\BaseParmAlll.cs" />
     <Compile Include="Class\StateChangedEvent.cs" />
